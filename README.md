@@ -5,3 +5,24 @@ Project Progress Portfolio
 
 # Introduction
 This project contains the reports necessary to implement a Personal Portfolio that was used in "Internet of Things" module in [International MINOR in Global Acting in I.T.](https://grauinformatica.udl.cat/en) at [ University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/).
+
+# Authors and Team members
+## [Antonia Dineva](https://github.com/ToniDineva)
+
+* This is my personal portfolio.
+
+## [Jan Eberwein](https://github.com/JanEberwein)
+
+* This is my personal portfolio.
+
+## [Jesper Hartsuiker](https://github.com/JesperHartsuiker)
+
+* This is my personal portfolio.
+
+## [Pol Triquell Lombardo](https://github.com/poltriquell)
+
+* This is my personal portfolio.
+
+## [Roan Palm](https://github.com/ro-palm)
+
+* This is my personal portfolio.
