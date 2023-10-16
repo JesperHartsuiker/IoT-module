@@ -13,7 +13,7 @@ This project contains the reports necessary to implement a Personal Portfolio th
 
 ## [Jan Eberwein](https://github.com/JanEberwein)
 
-* This is my personal portfolio.
+* This is my [personal portfolio](/Jan%20Eberwein).
 
 ## [Jesper Hartsuiker](https://github.com/JesperHartsuiker)
 
