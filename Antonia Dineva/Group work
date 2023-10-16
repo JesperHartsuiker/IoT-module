@@ -23,7 +23,67 @@ The steps
 5.	The LED started blinking in turn with the Wemos d1 board. 
 6.	We ran different codes to make them blink async. 
  
+ Code: 
+Asynchronous blinking 
  
+void setup() { 
+
+  // initialize digital pin LED_BUILTIN as an output. 
+
+  pinMode(LED_BUILTIN, OUTPUT); 
+
+  pinMode(D6, OUTPUT); 
+
+}  
+
+// the loop function runs over and over again forever 
+
+void loop() { 
+
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level) 
+
+  digitalWrite(D6, LOW);  
+
+  delay(1000);                      // wait for a second 
+
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW 
+
+  digitalWrite(D6, HIGH); 
+
+  delay(1000);                      // wait for a second 
+
+} 
+ 
+Synchronous blinking  
+
+void setup() { 
+
+  // initialize digital pin LED_BUILTIN as an output. 
+
+  pinMode(LED_BUILTIN, OUTPUT); 
+
+  pinMode(D6, OUTPUT); 
+
+} 
+// the loop function runs over and over again forever 
+
+void loop() { 
+
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level) 
+
+  digitalWrite(D6, HIGH);  
+
+  delay(1000);                      // wait for a second 
+
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW 
+
+  digitalWrite(D6, LOW); 
+
+  delay(1000);                      // wait for a second 
+
+} 
+
+
 D)Toggle Led with Button
  The steps
 
