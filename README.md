@@ -9,7 +9,7 @@ This project contains the reports necessary to implement a Personal Portfolio th
 # Authors and Team members
 ## [Antonia Dineva](https://github.com/ToniDineva)
 
-* This is my personal portfolio.
+* This is my [personal portfolio](/Antonia%20Dineva).
 
 ## [Jan Eberwein](https://github.com/JanEberwein)
 
@@ -17,12 +17,12 @@ This project contains the reports necessary to implement a Personal Portfolio th
 
 ## [Jesper Hartsuiker](https://github.com/JesperHartsuiker)
 
-* This is my personal portfolio.
+* This is my [personal portfolio](/Jesper%20Hartsuiker).
 
 ## [Pol Triquell Lombardo](https://github.com/poltriquell)
 
-* This is my [personal portfolio](/Pol%20Triquell/README.md).
+* This is my [personal portfolio](/Pol%20Triquell).
 
 ## [Roan Palm](https://github.com/ro-palm)
 
-* This is my personal portfolio.
+* This is my [personal portfolio](/Roan%20Palm).
