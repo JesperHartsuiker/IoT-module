@@ -21,7 +21,7 @@ This project contains the reports necessary to implement a Personal Portfolio th
 
 ## [Pol Triquell Lombardo](https://github.com/poltriquell)
 
-* This is my [personal portfolio](/Pol_Triquell/README.md).
+* This is my [personal portfolio](/Pol%20Triquell/README.md).
 
 ## [Roan Palm](https://github.com/ro-palm)
 
