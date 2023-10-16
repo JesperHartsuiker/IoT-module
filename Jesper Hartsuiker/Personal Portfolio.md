@@ -34,7 +34,7 @@ Two commonly used protocols in IoT are:
 •	HTTP (Hypertext Transfer Protocol): Though primarily used for web browsing, HTTP is also utilized in IoT for communication between devices and servers. It is often used for communication that requires more robust data transmission and where devices have more processing power and stable internet connections.
 
 Two devices used in IoT applications are:
-•	Smart Thermostat: A smart thermostat is an IoT device that allows users to control their home's temperature remotely using their smartphones or other networked devices. It typically includes sensors to detect temperature changes and actuators to adjust heating and cooling systems accordingly.
+•	Smart Car: A smart car is an IoT-enabled vehicle that integrates internet connectivity and advanced sensors for features such as real-time navigation, safety assistance, and data collection for performance optimization.
 •	Arduino Microcontroller: Arduino is an open-source electronics platform that uses a simple microcontroller and a development environment for creating interactive electronic objects. It is commonly used in IoT projects for prototyping and creating various smart devices, ranging from simple sensors to more complex automation systems.
 Devices seen in the LikeABosch video:
 •	Smart Thermostat: A smart thermostat is a device that allows remote control of a home's temperature using a smartphone or computer. It learns user habits and adjusts settings accordingly, providing convenience and energy efficiency.
