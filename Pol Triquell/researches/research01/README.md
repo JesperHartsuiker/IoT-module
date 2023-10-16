@@ -97,6 +97,12 @@ One of the defining features of IoT is its autonomy. These smart devices operate
 
   Wearable IoT devices like fitness trackers and smartwatches collect data on an individual's health and activities. They offer insights on physical fitness, sleep patterns, and vital signs.
 
+* Industrial Sensors:
+
+  In the industrial domain, various sensors and actuators are commonly used as IoT devices. These sensors can measure parameters like temperature, pressure, and humidity, contributing to process optimization and safety.
+
+### Devices seen in the LikeABosch video:
+
 * Smart Locks:
 
   IoT-enabled smart locks provide enhanced security and convenience for homeowners. They allow remote locking and unlocking of doors, along with user access control through mobile apps.
@@ -105,10 +111,18 @@ One of the defining features of IoT is its autonomy. These smart devices operate
 
   A smart thermostat is a common IoT device used in homes and businesses. It can adjust heating and cooling based on occupancy and user preferences, leading to energy savings and increased comfort.
 
-* Industrial Sensors:
 
-  In the industrial domain, various sensors and actuators are commonly used as IoT devices. These sensors can measure parameters like temperature, pressure, and humidity, contributing to process optimization and safety.
+### Devices seen in TIA IoT Introduction:
 
+In the TIA IoT introduction video, two additional devices that were highlighted are connected cars and phones. These are ubiquitous consumer gadgets that play integral roles in the Internet of Things (IoT) landscape.
+
+* Connected Cars:
+
+  These are automobiles equipped with IoT technology, allowing them to connect to the internet, exchange data with other vehicles and infrastructure, and offer features such as real-time navigation, remote diagnostics, and enhanced safety through features like collision detection and autonomous driving assistance. Connected cars represent a crucial development in IoT, revolutionizing the way we drive and interact with our vehicles.
+
+* Phones:
+
+   Mobile devices with communication and internet capabilities. In IoT, they serve as control centers for managing IoT devices and applications, enhancing connectivity and convenience.
 
 
 ### What are the benefits of IoT?
