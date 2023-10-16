@@ -87,7 +87,7 @@ One of the defining features of IoT is its autonomy. These smart devices operate
 
 
 
-### Typical devices
+### Typical devices of IoT
 
 * Smart Refrigerator:
 
