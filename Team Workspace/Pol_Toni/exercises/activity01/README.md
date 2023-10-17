@@ -130,20 +130,3 @@ In this task, we'll guide you through the process of adding a button to your bre
 #### Code for the toggle LED with Button
 
 Here you can find the code for the Toggle LED with Button -> [example_toggle_led_with_button.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_toggle_led_with_button.ino)
-
-
-
-
-
-
-
-
-
-
-
-
-#### Pictures
-<img src="/Teamfolder/pictures/exercise01/client_button_picture_1.jpg" alt="drawing" width="300"/> <img src="/Teamfolder/pictures/exercise01/client_button_picture_2.jpg" alt="drawing" width="300"/>
-
-## Problems
-In the first Lab we had problems especially with the micro USB cables. Some of our cables did not work and that cost us time.
