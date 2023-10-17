@@ -1,8 +1,4 @@
 
-![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)
-
-
-
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
@@ -17,6 +13,30 @@ void loop() {
   digitalWrite(D3, HIGH);
 }
 
+
+![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)
+
+
+
+
+byte lastButtonState = LOW;
+byte ledState = LOW;
+
+void setup() {
+  pinMode(D1, OUTPUT);
+  pinMode(D2, INPUT);
+}
+
+void loop() {
+  byte buttonState = digitalRead(D2);
+  if (buttonState != lastButtonState) {
+    lastButtonState = buttonState;
+    if (buttonState == LOW) {
+      ledState = (ledState == HIGH) ? LOW: HIGH;
+      digitalWrite(D1, ledState);
+    }
+  }
+}
 
 
 https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0633b656-b006-414f-af31-35fa0c079cc1
