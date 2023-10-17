@@ -18,9 +18,8 @@ void loop() {
 }
 ```
 And this was the result of the code being submitted to the microcontroller:
+
 ![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)
-
-
 
 
 byte lastButtonState = LOW;
