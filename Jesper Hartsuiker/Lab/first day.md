@@ -20,7 +20,8 @@ void loop() {
 And this was the result of the code being submitted to the microcontroller:
 
 
-![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)
+![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)  
+
 
 
 After the previous part was finished, I made the setup to turn on and off a light with a button. This is the code we wrote:
@@ -48,7 +49,8 @@ void loop() {
 And this is the result after the code was submitted to the microcontroller:
 
 
-https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0633b656-b006-414f-af31-35fa0c079cc1
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0633b656-b006-414f-af31-35fa0c079cc1  
+
 
 
 
