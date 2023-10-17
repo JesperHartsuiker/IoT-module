@@ -19,9 +19,7 @@ void loop() {
 
 
 
-
-https://github.com/JesperHartsuiker/IoT-module/assets/82671856/5a8d1bae-ffc0-4a6a-8ff9-b5bea3ad829a
-
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0633b656-b006-414f-af31-35fa0c079cc1
 
 
 
@@ -54,5 +52,6 @@ void loop() {
 }
 
 
-https://github.com/JesperHartsuiker/IoT-module/assets/82671856/9c24a943-1c7c-4d04-aed1-0c00353f6c3b
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0e3d5ad1-ae92-4987-a094-dc131720bee5
+
 
