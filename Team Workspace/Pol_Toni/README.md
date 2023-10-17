@@ -1,4 +1,4 @@
-# IoT Team Rocket Workspace
+# IoT Pol and Toni Workspace
 
 In this section, we keep a comprehensive collection of all the practical activities, visual resources, and innovative undertakings we've embarked on during our IoT module exercise sessions.
 
