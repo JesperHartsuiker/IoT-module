@@ -4,6 +4,17 @@
 
 For the first exercise we wrote three small Arduino programs.
 
+## Overview
+1. [Breadboards, Blink, and Stories](#breadboards-blink-and-stories)
+2. [Example - Breadboard and Electronic Prototyping (Pair)](#example---breadboard-and-electronic-prototyping-pair)
+	* [Procedure](#procedure)
+3. [Example - Blink on the Wemos D1 Mini or ESP32 (Pair)](#example---blink-on-the-wemos-d1-mini-or-esp32-pair)
+	* [Procedure](#procedure-1)
+	* [Code for the three types of blinking LED in Wemos D1 Mini](#code-for-the-three-types-of-blinking-led-in-wemos-d1-mini)
+4. [Example - Toggle LED With Button](#example---toggle-led-with-button)
+	* [Procedure](#procedure-2)
+	* [Code for the toggle LED with Button](#code-for-the-toggle-led-with-button).
+
 ## Breadboards, Blink, and Stories
 
 ### Example - Breadboard and Electronic Prototyping (Pair)
@@ -45,8 +56,8 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
 	As an experiment, try connecting two LEDs to the circuit simultaneously. You'll notice that the brightness of the LEDs dims when both are connected. However, when only one LED is connected, it remains bright. This experiment illustrates how components interact in an electrical circuit.
 
 ### Example - Blink on the Wemos D1 Mini or ESP32 (Pair)
-For this small example we created an Arduino program which makes the onboard LED of the ESP8266 blink every second.
 
+For this small example we created an Arduino program which makes the onboard LED of the ESP8266 blink every second.
 
 In this IoT device configuration and programming exercise, we will outline the steps to set up and program a Wemos D1 Mini microcontroller, create a basic LED circuit, and experiment with asynchronous LED blinking.
 
@@ -79,13 +90,7 @@ In this IoT device configuration and programming exercise, we will outline the s
 
 	To experiment with asynchronous LED blinking we made a script to do it easily.
 
-### TODO Example - Toggle Led With Button
-
-
-
 #### Code for the three types of blinking LED in Wemos D1 Mini
-
-"If you wish to access the entire code, simply press [here](#lab-tasks-description) to be directed to the page that hosts the complete code for 'activity01'.
 
 Here you can find the code for the Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_blink.ino)
 
@@ -93,27 +98,39 @@ Here you can find the code for the Sync Blinking LED -> [example_sync_blink.ino]
 
 Here you can find the code for the Async Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_async_blink.ino)
 
+### Example - Toggle LED With Button
+
+In this task, we'll guide you through the process of adding a button to your breadboard, testing digital input with Arduino, and creating an Arduino sketch to toggle an LED using the button.
+
+#### Procedure
+
+1. Adding the Button:
+   * Connect one leg of the push-button to the ground (GND) on the breadboard.
+   * Attach the other leg of the push-button to a GPIO port, e.g., D2.
+   * Ensure your wiring is secure, and the push-button is placed properly.
+
+2. Testing Digital Input:
+   * Open the Arduino IDE.
+   * Load the "DigitalReadSerial" example (File > Examples > 02.Digital > DigitalReadSerial).
+   * Adjust the code to read from the same GPIO port where you connected the push-button (D2 in this case).
+
+3. Adding INPUT:
+   * Modify the code by changing `pinMode` for the push-button to use `INPUT_PULLUP` instead of `INPUT`.
+   * To understand why this change is beneficial, explore how INPUT_PULLUP uses an internal pull-up resistor to make reading button presses more reliable.
+
+4. Uploading and Testing:
+   * Upload the modified code to your Arduino board.
+   * Open the Serial Monitor to check the button's state.
+   * When the button is pressed, you should see changes in the Serial Monitor. Take a screenshot for your portfolio to showcase your successful setup.
+
+5. Creating the LED Toggle Sketch:
+   * Write an Arduino sketch that toggles an LED (connected to D2) when the button is pressed.
+   * Use a variable to track the LED state (on/off) and update it with each button press.
+
+#### Code for the toggle LED with Button
+
 Here you can find the code for the Toggle LED with Button -> [example_toggle_led_with_button.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_toggle_led_with_button.ino)
 
-
-
-
-
-## Overview
-1. [Preparation](/Teamfolder/exercises/exercise01#preparation)
-2. [Example - blinking LED](/Teamfolder/exercises/exercise01#example---blinking-led)
-	- [How to begin](/Teamfolder/exercises/exercise01#how-to-begin)
-	- [Code for the blinking LED](/Teamfolder/exercises/exercise01#code-for-the-blinking-led)
-	- [Pictures](/Teamfolder/exercises/exercise01#pictures)
-3. [Control an ESP8266 from another ESP8266 via WLAN](/Teamfolder/exercises/exercise01#control-an-esp8266-from-another-esp8266-via-wlan)
-	- [Client - ESP8266 with a button which talks to another ESP8266](/Teamfolder/exercises/exercise01#client---esp8266-with-a-button-which-talks-to-another-esp8266)
-		- [How to begin](/Teamfolder/exercises/exercise01#how-to-begin-1)
-		- [Code for the client](/Teamfolder/exercises/exercise01#code-for-the-client)
-		- [Pictures](/Teamfolder/exercises/exercise01#pictures-1)
-	- [Server - ESP8266 with a LED which is switched on/off from the client](/Teamfolder/exercises/exercise01#server---esp8266-with-a-led-which-is-switched-onoff-from-the-client)
-		- [How to begin](/Teamfolder/exercises/exercise01#how-to-begin-2)
-		- [Code for the server](/Teamfolder/exercises/exercise01#code-for-the-server). 
-4. [Problems](/Teamfolder/exercises/exercises01#Problems)
 
 
 
