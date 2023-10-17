@@ -20,7 +20,7 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
 
 1. Install Arduino Environment:
 
-  Begin by ensuring you have the Arduino IDE installed on your computer, including the necessary packages for the Wemos D1 Mini.
+	Begin by ensuring you have the Arduino IDE installed on your computer, including the necessary packages for the Wemos D1 Mini.
 
 2. Connect Wemos D1 Mini:
 
