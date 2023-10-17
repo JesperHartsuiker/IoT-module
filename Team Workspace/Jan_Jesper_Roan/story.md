@@ -1,23 +1,20 @@
-# Story
+# User: Lisa, a student with attention difficulties
 
-Create one scenario per "pair" around your potential project in the “sustainable living” challenge domain with your parter(s) (seek for feedback of idea)
-- If you don’t have your own idea,  ask chatgpt (I asked for “I need several ideas for project topics for my ‘sustainable living’ challenge in my IoT class in Estonia. - These topic ideas should be possible to be extended by the students into pitchable user stories.”)
+Lisa is a college student with attention difficulties, often finding it challenging to focus on her computer screen for extended periods. She frequently loses track of time and misses important information, affecting her productivity.
 
-**Remember:**
-- It needs to be playable and pitchable (like example in lecture) 
-- chat gpt can be incredibly helpful in this task btw, though will most likely have to be refined and adjusted by you (make sure you list your questions and a selection of answers like I did above - if you use it)
+Using the Blink Assist device, she can enhance her focus and reduce distractions while using her computer. The device is set up on her desk and connected to her computer through a USB port.
 
-After about 30min:
-- Present story/scenario inside team (2x 5 minutes)
-- Discuss potential problems/challenges (5min)
-- Discuss implementation possibilities (5min)
-- Discuss implementation possibilities (10min) - how likely can you build something of this with the kit and what would you need to mock up, what type of integration would you need - take notes here too as pair
+## Scenario:
 
-Seek feedback as team from instructor
+- Lisa sits down to work on her research paper, opening multiple tabs and documents on her computer.
+- As she begins to work, the Blink Assist device monitors her screen time, detecting when she hasn't looked at the screen for a certain duration.
+- After 15 minutes of screen inactivity, the device initiates a gentle flashing light to remind Lisa to refocus her attention on the screen.
+- If Lisa continues to be inactive for an additional 5 minutes, the device initiates a subtle rumbling sensation, prompting her to pay attention to her work.
+- If she still does not respond after 5 more minutes, the device plays a gentle sound to alert her to return her focus to the screen.
 
-***
+This process helps Lisa maintain her concentration, ensuring she doesn't miss crucial information while studying or working on her assignments.
 
+By providing timely reminders through light, vibration, and sound, the Blink Assist device supports Lisa in managing her attention difficulties and improving her productivity during screen-based tasks.
 
-
-
+All status indicators on the Blink Assist device remain in a normal state as long as Lisa actively engages with her screen, ensuring she stays focused and on track with her work.
 
