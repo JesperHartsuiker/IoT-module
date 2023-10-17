@@ -1,19 +1,23 @@
+# First lab day: Learning small things with the Microcontroller.
 
+During the first lab day we started with learning a bit about the microcontroller that we got and started to code some things to put on some lights. We made the code in the Arduino IDE application.
+
+I first started with a double light setup to turn on a yellow and a red light. This is the code we used for the program:
+
+```cpp
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(D4, OUTPUT);
-  pinMode(D3, OUTPUT);
+    pinMode(LED_BUILTIN, OUTPUT); 
+    pinMode(D4, OUTPUT); 
+    pinMode(D3, OUTPUT); 
 }
 
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(D4, HIGH);
-  delay(1000);
-  digitalWrite(D3, HIGH);
+void loop() { 
+    digitalWrite(D4, HIGH); 
+    delay(1000); 
+    digitalWrite(D3, HIGH); 
 }
-
-
+```
+And this was the result of the code being submitted to the microcontroller:
 ![IMG_9890 thumbnail](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/936bba47-df32-4d7e-8327-caafae94a93c)
 
 
