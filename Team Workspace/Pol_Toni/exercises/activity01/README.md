@@ -10,12 +10,6 @@ For the first exercise we wrote three small Arduino programs.
 
 In this IoT prototyping procedure, we will guide you through the necessary steps to set up and test a Wemos D1 Mini using an Arduino development environment.
 
-#### Prerequisites
-
-* You should have Arduino and the appropriate package installed on your computer.
-* Ensure that you have a Wemos D1 Mini board available.
-* Prepare a breadboard and necessary cables for the electronic connections.
-
 #### Procedure
 
 1. Install Arduino Environment:
@@ -54,9 +48,56 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
 For this small example we created an Arduino program which makes the onboard LED of the ESP8266 blink every second.
 
 
+In this IoT device configuration and programming exercise, we will outline the steps to set up and program a Wemos D1 Mini microcontroller, create a basic LED circuit, and experiment with asynchronous LED blinking.
 
-# Exercise 01
-For the first exercise we wrote three small Arduino programs.
+#### Procedure
+
+1. Connect the Wemos D1 Mini:
+
+	Start by connecting the Wemos D1 Mini to your computer using a USB cable. This establishes the communication between the development environment and the IoT device.
+
+2. Wiring the Circuit:
+
+	Establish the circuit connections as follows:
+   * Use a grey wire to connect the ground (GND) pin on the Wemos D1 Mini to the ground on the breadboard.
+   * Utilize a yellow wire to connect pin D6 on the Wemos D1 Mini to a designated point on the breadboard.
+   * Employ a red wire to connect the 3.3-volt (3.3V) output from the Wemos D1 Mini to the breadboard's positive (+) rail.
+
+3. Introduce a Resistor:
+
+	Place a resistor in the circuit, connecting it to the breadboard's negative (-) rail. This resistor serves to regulate the flow of current in the circuit.
+
+4. LED Connection:
+
+	Connect the cathode (negative) end of the LED to the breadboard's negative (-) rail, ensuring it is in line with the resistor. This setup controls the current flow and ensures the LED functions as intended.
+
+5. Blinking LED:
+
+	Upon completing the circuit and power supply, you will observe the LED blinking in synchronization with the Wemos D1 Mini. This indicates that your basic circuit is operational.
+
+6. Programming for Asynchronous Blinking:
+
+	To experiment with asynchronous LED blinking we made a script to do it easily.
+
+### TODO Example - Toggle Led With Button
+
+
+
+#### Code for the three types of blinking LED in Wemos D1 Mini
+
+"If you wish to access the entire code, simply press [here](Team%20Workspace/Pol_Toni/exercises/activity01/) to be directed to the page that hosts the complete code for 'activity01'.
+
+Here you can find the code for the Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_blink.ino)
+
+Here you can find the code for the Sync Blinking LED -> [example_sync_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_sync_blink.ino)
+
+Here you can find the code for the Async Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_async_blink.ino)
+
+Here you can find the code for the Toggle LED with Button -> [example_toggle_led_with_button.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_toggle_led_with_button.ino)
+
+
+
+
 
 ## Overview
 1. [Preparation](/Teamfolder/exercises/exercise01#preparation)
@@ -76,58 +117,16 @@ For the first exercise we wrote three small Arduino programs.
 
 
 
-## Preparation
-Before we could start doing the first little example, we had to setup our Raspberry Pi.
-1. We installed the Arduino IDE from https://www.arduino.cc/en/Main/Software
-2. We added support for ESP8266 to the Arduino environment by following these steps: https://github.com/esp8266/Arduino
-3. We downloaded the image for the Raspberry Pi from https://github.com/iotempire/iotempower/blob/master/doc/image-pi.rst
-4. We checked the checksum with the tool from https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
-5. We downloaded etcher from https://www.balena.io/etcher/
-6. We flashed the image to the Raspberry Pi with etcher and validate it
-7. In wifi.txt we changed the WiFi name and password and removed '#' from the WiFi name line
-8. We connected the Raspberry Pi to the network via Ethernet cable and powered it up
 
-## Example - blinking LED
-For this small example we created an Arduino program which makes the onboard LED of the ESP8266 blink every second.
 
-### How to begin
-1. Tools > Board > LOLIN(WEMOS) D1 R2 & mini
-2. Files > Example > Built in examples > 01. Basics > Blink
-3. Verify the program
-4. Upload File to ESP8266
 
-### Code for the blinking LED
-Here you can find the code for the blinking LED -> [example_blink.ino](/Teamfolder/exercises/exercise01/example_blink/example_blink.ino)
 
-### Pictures
-<img src="/Teamfolder/pictures/exercise01/example_blink_picture_1.jpg" alt="drawing" width="300"/> <img src="/Teamfolder/pictures/exercise01/example_blink_picture_2.jpg" alt="drawing" width="300"/>
 
-## Control an ESP8266 from another ESP8266 via WLAN
-In this little project we wanted to make a server (ESP8266) which only toggles a LED when a special event occurs. That event is the click of a button on another ESP8266.
-These two ESP8266s are connected via WLAN.
 
-### Client - ESP8266 with a button which talks to another ESP8266
-This is our client which connects to the WLAN from our Raspberry Pi and also connects to the second ESP8266 via its IP address and sends a HTTP GET to it when the button is pressed.
 
-#### How to begin
-1. File > New
-1. Tools > Board > LOLIN(WEMOS) D1 R2 & mini
-3. Connect the cables between the ESP8266 and the button
-	- black cable of the button to the ground (G) of the ESP8266
-	- yellow cable of the button to D6 connector of the ESP8266
-	- red cable of the button to the 3V connector of the ESP8266
-2. Write the code
-3. Verify the program
-4. Upload File to ESP8266
-
-#### Code for the client
-Here you can find the code for the client -> [client_button.ino](/Teamfolder/exercises/exercise01/client_button/client_button.ino)
 
 #### Pictures
 <img src="/Teamfolder/pictures/exercise01/client_button_picture_1.jpg" alt="drawing" width="300"/> <img src="/Teamfolder/pictures/exercise01/client_button_picture_2.jpg" alt="drawing" width="300"/>
-
-### Server - ESP8266 with a LED which is switched on/off from the client
-...
 
 ## Problems
 In the first Lab we had problems especially with the micro USB cables. Some of our cables did not work and that cost us time.
