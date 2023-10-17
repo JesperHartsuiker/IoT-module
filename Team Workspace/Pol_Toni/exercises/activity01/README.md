@@ -85,7 +85,7 @@ In this IoT device configuration and programming exercise, we will outline the s
 
 #### Code for the three types of blinking LED in Wemos D1 Mini
 
-"If you wish to access the entire code, simply press [here](Team%20Workspace/Pol_Toni/exercises/activity01/) to be directed to the page that hosts the complete code for 'activity01'.
+"If you wish to access the entire code, simply press [here](Tactivity01/) to be directed to the page that hosts the complete code for 'activity01'.
 
 Here you can find the code for the Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_blink.ino)
 
