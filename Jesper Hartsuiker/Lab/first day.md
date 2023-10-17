@@ -1,8 +1,8 @@
 # First lab day: Learning small things with the Microcontroller.
 
-During the first lab day we started with learning a bit about the microcontroller that we got and started to code some things to put on some lights. We made the code in the Arduino IDE application.
+During the first lab day we started with learning a bit about the microcontroller that we got and started to code some things to put on some lights. We made the code in the Arduino IDE application. I worked together on this with Roan Palm.
 
-I first started with a double light setup to turn on a yellow and a red light. This is the code we used for the program:
+We first started with a double light setup to turn on a yellow and a red light. This is the code we used for the program:
 
 ```cpp
 void setup() {
