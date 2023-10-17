@@ -13,7 +13,7 @@ For the first exercise we wrote three small Arduino programs.
 	* [Code for the three types of blinking LED in Wemos D1 Mini](#code-for-the-three-types-of-blinking-led-in-wemos-d1-mini)
 4. [Example - Toggle LED With Button](#example---toggle-led-with-button)
 	* [Procedure](#procedure-2)
-	* [Code for the toggle LED with Button](#code-for-the-toggle-led-with-button).
+	* [Code for the toggle LED with Button](#code-for-the-toggle-led-with-button)
 
 ## Breadboards, Blink, and Stories
 
