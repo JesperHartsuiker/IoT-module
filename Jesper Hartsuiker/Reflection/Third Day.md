@@ -2,11 +2,16 @@
 
 After the third day I made a reflection on the third day. Based on four questions, I made the reflection.
 
-    What is your take-away, what do you want to remember, what would be your advice?
-        The first day was a fast start up of the module. We started with the module right away after. It was a lot of information at the start of IoT, but that was not too bad. I’m pretty interested in this module subject and want to learn more about it. And also maybe improve a bit in coding. The first day was pretty easy for me and it went by real quick.
+What is your take-away, what do you want to remember, what would be your advice?  
 
-    Was there any good/fun “struggling”/exploration?
-        I enjoyed the lab session of the day. I’m more of a guy who does hands-on stuff. The theory part is less interesting for me and I learn more when working on something myself. Making a start on trying to turn on lights with a microcontroller was very fun.
+From this experience, I've learned the importance of a quick start, the value of concise theory, and the benefits of seeking help when encountering technical difficulties. Communicating via MQTT was surprisingly easy, while simulating the thermostat and AC provided practical insights. However, the hardware aspect was challenging and demanded extra effort.
 
-    Any show stoppers – anything where you should reach out to peers or instructors?
-        I didn’t have any problems with the lesson of the day and I didn’t need to ask things about the IoT part. Only the Personal Portfolio was a bit unclear for me how we needed to make it and had to ask it to my peers.
+        
+Was there any good/fun “struggling”/exploration?  
+
+It was enoyable to make the simulation of the thermostat and ac, but the hardware was really difficult to complete and we needed to ask multiple other students to help us.  
+
+
+Any show stoppers – anything where you should reach out to peers or instructors?
+
+I had good help from my peers, who helped me a lot with the hardware part of the lab. Also we had good help from the teachers about fixing the hotspot of our raspberry pi, or at leas how to work with it. The only thing I would say about the practical hardware part, in my opinion we were trown in the deep end and it was really difficult to find the solution with little knowledge of the parts we were using.
