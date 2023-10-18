@@ -11,15 +11,14 @@ Our raspberry pi was crashing a lot with sending out a WiFi network. We could no
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/357fd639-5e94-4b62-93b2-a21bccd7d7d4)
 
-
-to get in the raspberry pi for the mqtt mosquitto settings, we need to have ssh.
-below you can see the ssh session
+After the settings has been changed, we need to ssh into the raspberri pi to setup a mosquitto session. Below you will see the ssh session.
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b5cf1568-c924-4b98-946c-7529974d2674)
 
 
 ## Mosquitto send messages
 
+After the ssh session has been started, I tried to lookup the help page in command line of mosquitto_sub and mosquitto_pub.
 mosquitto_sub --help
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/00fcb56c-2624-4c58-8361-c9bc28b72f4f)
