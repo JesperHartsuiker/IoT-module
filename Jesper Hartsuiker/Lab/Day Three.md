@@ -37,7 +37,7 @@ Receiving hello world on other client
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cd90102a-da18-463e-8fcc-ee204aae99b2)
 
 
-## mqtt send messages
+## MQTT send messages
 
 Now we will do the same for MQTT. We setup my ssh session as a listening port, and Roan's ssh session as a sending port.
 Listening to mqtt messages:
@@ -108,7 +108,7 @@ The output in the mosquitto listener:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7abecf64-9846-4cd3-ba20-08d029f056bf)
 
 
-## turning ac on and off
+## Turning ac on and off
 Next I changed the code up so it would be the example as listed below, where there is a temperature sensor and the ac. This is the code after I changed it:
 ```css
 from iotknit import *
@@ -147,7 +147,7 @@ temp1.subscribe_change(callback=tempCallback)
 run()  # you can also do a while loop here call process() instead
 ```
 
-## sending high temps
+### Sending high temps
 To simulate it, I sent an integer of 26 to the MQTT broker, so it would be 'hot' in the room. This is the result that I got:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7593765e-b8ee-4207-8fe9-0c0b580abfd5)
@@ -161,7 +161,7 @@ Mosquitto output:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/1358d6b6-f175-422c-b6d5-c67073fb325b)
 
 
-## sending lower temps
+### Sending lower temps
 Next to simulate if the temperature would drop below 20, I put in the integeter 18 in. As predicted the 'ac' should turn off, if it was below 20 degrees. 
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/561d6df1-9bb7-4c61-a5b7-65984ae279ea)
@@ -175,7 +175,7 @@ Mosquitto output:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/989c9a36-ee2e-4cd4-8c88-24e82bf9a42f)
 
 
-## making random temps
+### Making random temps
 Next I needed to make the integeters random that had to be sent to the MQTT broker. I chose to make a bash script that does this.  
 
 To make a bash script, run this command: sudo nano random_temps.sh  
@@ -207,7 +207,7 @@ The output for the mosquitto session is seen here:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b8b0af5e-ef8e-4794-a773-c6230762a015)
 
 
-## hardware
+### Hardware
 
 changed the code a tiny bit so it wil take higher temps:
 
