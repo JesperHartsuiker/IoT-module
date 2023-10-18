@@ -14,6 +14,7 @@ now the raspberry pi has a IP address fo (192.168.12.10)
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/291acd32-0f16-4f92-b517-3a8774c05fbf)
 
 to get in the raspberry pi for the mqtt mosquitto settings, we need to have ssh.
+below you can see the ssh session
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/050186b9-9652-4985-a7cc-43a198351787)
 
