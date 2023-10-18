@@ -207,9 +207,10 @@ The output for the mosquitto session is seen here:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b8b0af5e-ef8e-4794-a773-c6230762a015)
 
 
-### Hardware
+## Hardware
+After the 'simulation' of the temperature sensor and the 'ac' was completed, we needed to make it with hardware, so we used a temperature sensor, 2 esp32's and a light as turn on or off.  
 
-changed the code a tiny bit so it wil take higher temps:
+First I changed the code to turn on and off the 'ac' otherwise it would be to low, because the server only picked up temperatures above 26, so it would only turn on the 'ac'. So I changed it that everyting under 27 was off and over 27 it would be on. In that way we could test if it would work. The most important thing was to change the t = int(msg) to t = float(msg). Otherwise the code would be errorous. This is the code now:
 
 ```css
 from iotknit import *
@@ -249,3 +250,171 @@ temp1.subscribe_change(callback=tempCallback)
 
 run()  # you can also do a while loop here call process() instead
 ```
+Next we made the code for the sender, so this esp32 had the temperature sensor that would sent the temperatures to the MQTT broker. This is the code that we made for it:
+```css
+#include <WiFi.h>
+#include <PubSubClient.h>
+#include <Adafruit_Sensor.h>
+#include <DHT.h>
+#include <DHT_U.h>
+
+// WiFi
+const char ssid = *"It_Burns_When_IP"; // Enter your Wi-Fi name
+const charpassword = *"Namreh7256";  // Enter Wi-Fi password
+WiFiClient espClient;
+
+// MQTT Broker
+const char mqtt_broker = *"192.168.12.1";
+
+const chartopic_interpretor = "temp-measure/temp1";
+PubSubClient client(espClient);
+
+// Temperature sensor
+#define DHTPIN 4    // Digital pin connected to the DHT sensor 
+#define DHTTYPE    DHT11     // DHT 11
+DHT_Unified dht(DHTPIN, DHTTYPE);
+void temp_reading();
+
+uint32_t delayMS;
+
+void setup() {
+    Serial.begin(115200);
+
+    // Connecting to a WiFi network
+    WiFi.begin(ssid, password);
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(500);
+        Serial.print(".");
+    }
+    Serial.println("");
+    Serial.print("Connected to ");
+    Serial.println(ssid);
+    Serial.print("IP address: ");
+    Serial.println(WiFi.localIP());
+
+    // Initialize device.
+    dht.begin();
+    // Print temperature sensor details.
+    sensor_t sensor;
+    delayMS = sensor.min_delay / 1000;
+}
+
+void loop() {
+    if (!client.connected()) {
+        client.setServer(mqtt_broker, 1883);
+        client.connect("Temperature Sensor");
+
+    }
+
+    temp_reading();
+
+    client.loop();
+    delay(5000);
+}
+
+void temp_reading() {
+    // Delay between measurements.
+    delay(delayMS);
+    // Get temperature event and print its value.
+    sensors_event_t event;
+    dht.temperature().getEvent(&event);
+    if (isnan(event.temperature)) {
+
+    }
+    else {
+        String temperature = String(event.temperature);
+
+        client.publish(topic_interpretor, temperature.c_str());
+    }
+}
+```
+Next we made the code for the reciever, this would be the other esp32 with the light that would turn on or off, depends on the temperature of course. This is the code that we have written for it:
+```css
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+// WiFi
+const char ssid = *"It_Burns_When_IP"; // Enter your Wi-Fi name
+const charpassword = *"Namreh7256";  // Enter Wi-Fi password
+
+// MQTT Broker
+const char mqtt_broker = *"192.168.12.1";
+const chartopic_switch = "switch/rl/set";
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+// Onboard LED
+const int ledPin = 2; // Change this to the appropriate GPIO pin where the onboard LED is connected
+
+void setup() {
+  Serial.begin(115200);
+
+  // Connecting to a WiFi network
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.print("Connected to ");
+  Serial.println(ssid);
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
+
+  // Initialize LED pin as an output
+  pinMode(ledPin, OUTPUT);
+  digitalWrite(ledPin, LOW); // Initialize LED as OFF
+
+  // Set the MQTT broker server
+  client.setServer(mqtt_broker, 1883);
+
+  // Set the callback function to handle MQTT messages
+  client.setCallback(callback);
+}
+
+void loop() {
+  if (!client.connected()) {
+    reconnect();
+  }
+  client.loop();
+}
+
+void callback(char topic, bytepayload, unsigned int length) {
+  // Handle MQTT messages received on the subscribed topic
+  if (strcmp(topic, topic_switch) == 0) {
+    String message = "";
+    for (int i = 0; i < length; i++) {
+      message += (char)payload[i];
+    }
+
+    if (message == "on") {
+      digitalWrite(ledPin, HIGH); // Turn LED ON
+    } else if (message == "off") {
+      digitalWrite(ledPin, LOW); // Turn LED OFF
+    }
+  }
+}
+
+void reconnect() {
+  // Reconnect to the MQTT broker
+  while (!client.connected()) {
+    if (client.connect("LED Control")) {
+      // Subscribe to the switch/rl/set topic
+      client.subscribe(topic_switch);
+    } else {
+      delay(5000);
+    }
+  }
+}
+```
+### Temperature is to high.
+The first video we made is the temperature sensor who would pick up a temperature above 27 degrees. So it would need to turn on the ac. To test it we put our hands over the sensor to warm it up. This is the result for it (it is hard to see, the videos have been made with only the on board light of the esp32, this is the same for the temperature is to low.):
+
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/819e1c66-d8a2-401c-932a-39b43844d503
+
+### Temperature is to low.
+Next we let the temperature lower down, to go under the 27 degrees, by stopping to hold it with our fingers. This is the result:
+
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/ec507ccc-12a9-44a0-832d-3b4e94490f26
+
