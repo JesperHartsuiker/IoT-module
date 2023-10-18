@@ -51,3 +51,142 @@ sending the message:
 receiving the message:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/14b22983-2904-49c2-b01b-68728fef1209)
+
+
+
+
+
+## Testing lights on off
+
+
+```css
+from iotknit import *
+
+led1Status = False
+
+init("192.168.12.1")  # use a MQTT broker on localhost
+
+prefix("led")  # all actors below are prefixed with /led
+
+led1 = publisher("led1")  # create a Thingi interface that publishes to led/led1
+
+def button1Callback(msg):
+   global led1Status
+
+   print("received: [button]", msg)
+
+   if (msg == "down"):
+      led1Status = not led1Status  # toggle status of led
+
+      if (led1Status):
+            led1.publish("set", "on")  # publish updated state
+            print("sending: [led1]", "on")
+      else:
+            led1.publish("set", "off")
+            print("sending: [led1]", "of")
+
+
+prefix("button")  # all sensors below are prefixed with /button
+
+button1 = subscriber("button1")  # create a Thingi interface that can have
+                                 # subscribes only to button/button1
+button1.subscribe_change(callback=button1Callback)
+
+run()  # you can also do a while loop here call process() instead
+```
+## sending lights off
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e58b4de3-3146-4441-a64b-eddfa44b1ed3)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/768d4f1e-ed69-4ac2-9088-52e29d558850)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7abecf64-9846-4cd3-ba20-08d029f056bf)
+
+
+## turning ac on and off
+```css
+from iotknit import *
+
+init("192.168.12.1")  # use a MQTT broker on localhost
+
+prefix("switch")  # all actors below are prefixed with /led
+
+switch = publisher("rl")  # create a Thingi interface that publishes to led/led1
+
+def tempCallback(msg):
+
+    print("received: [temp]", msg)
+
+    try:
+        t = int(msg)
+    except ValueError:
+       return
+
+    if (t >= 25):
+        switch.publish("set", "on")  # publish updated state
+        print("sending: [rl]", "on")
+    elif (t <= 20):
+        switch.publish("set", "off")
+        print("sending: [rl]", "off")
+    else:
+        return
+
+
+prefix("temp-measure")  # all sensors below are prefixed with /button
+
+temp1 = subscriber("temp1")  # create a Thingi interface that can have
+                                 # subscribes only to button/button1
+temp1.subscribe_change(callback=tempCallback)
+
+run()  # you can also do a while loop here call process() instead
+```
+
+## sending high temps
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7593765e-b8ee-4207-8fe9-0c0b580abfd5)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/6f87ecd4-052b-49f7-b59e-0946e597e6e5)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/1358d6b6-f175-422c-b6d5-c67073fb325b)
+
+
+
+
+## sending lower temps
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/561d6df1-9bb7-4c61-a5b7-65984ae279ea)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7c5b71a2-3e98-4766-8909-f8539efea6cd)
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/989c9a36-ee2e-4cd4-8c88-24e82bf9a42f)
+
+
+## making random temps
+
+make a bash script: sudo nano random_temps.sh
+add this code to the script
+```css
+#!/bin/bash
+
+while true
+do
+    number=$((RANDOM % 16 + 15))  # Generate random integer between 15 and 30
+    mosquitto_pub -h 192.1678.12.1 -t temp-measure/temp1 -m "$number" 
+    sleep 10  # Sleep for 10 seconds
+done
+```
+then give the script executable permissions with the command: sudo chmod +x random_temps.sh
+to run the script use ./random_temps.sh
+
+then the random number will start to come every 10 seconds:
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e51d80d9-a53f-4e20-9f2a-318496d185fc)
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/a004c25f-5d00-4df5-ac73-07603740acf2)
+
