@@ -2,13 +2,11 @@
 
 ## Getting the rasberry pi ready by changing settings
 
-turned off the raspberry pi router
-poweroff on raspberry pi
-changed the router LAN adress to 192.168.12.254
-powered the raspberry pi on again
-in the router settings added a static IP adress for the raspberry pi (192.168.12.1)
-via ssh in the raspberry pi used sudo reboot.
-now the raspberry pi has a IP address to (192.168.12.1)
+- I shut down the Raspberry Pi router and then powered it back on. 
+- After that, I modified the router LAN address to 192.168.12.254. 
+- Upon restarting the Raspberry Pi, I went into the router settings and assigned a static IP address (192.168.12.1) for - the Raspberry Pi. 
+- I accessed the Raspberry Pi via SSH and used the command "sudo reboot". 
+- Now, the Raspberry Pi is assigned the IP address 192.168.12.1.
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/357fd639-5e94-4b62-93b2-a21bccd7d7d4)
 
