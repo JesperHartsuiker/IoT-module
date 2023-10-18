@@ -1,3 +1,6 @@
+# Lab Day Three
+
+## Getting the rasberry pi ready by changing settings
 
 turned off the raspberry pi router
 poweroff on raspberry pi
@@ -16,6 +19,8 @@ below you can see the ssh session
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b5cf1568-c924-4b98-946c-7529974d2674)
 
 
+## Mosquitto send messages
+
 mosquitto_sub --help
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/00fcb56c-2624-4c58-8361-c9bc28b72f4f)
@@ -33,7 +38,7 @@ receiving hello world on other client
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cd90102a-da18-463e-8fcc-ee204aae99b2)
 
 
-#mqtt send messages
+## mqtt send messages
 
 listening to mqtt messages:
 
