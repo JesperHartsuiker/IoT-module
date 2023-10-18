@@ -1,6 +1,6 @@
 # Day Three
 
-# Exchange Formats/Data Serialization. How to speak IoT?
+## Exchange Formats/Data Serialization. How to speak IoT?
 
 Text:
 - **Suitability:** Text-based formats are human-readable and can be easily interpreted by a variety of systems. They are suitable for data transmission in less resource-constrained environments within the IoT architecture, such as at the application layer or for configuration files.
