@@ -20,12 +20,14 @@ mosquitto_sub --help
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/00fcb56c-2624-4c58-8361-c9bc28b72f4f)
 
-
+mosquitto_pub --help
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cc52bc06-8230-4b18-ab5b-aaeb035adb4e)
 
 sending hello world to other client
+
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/11971cf5-7a61-4a25-9c9d-44ebdef4d613)
+
 receiving hello world on other client
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cd90102a-da18-463e-8fcc-ee204aae99b2)
