@@ -32,23 +32,23 @@ sending hello world to other client
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/11971cf5-7a61-4a25-9c9d-44ebdef4d613)
 
-receiving hello world on other client
+Receiving hello world on other client
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cd90102a-da18-463e-8fcc-ee204aae99b2)
 
 
 ## mqtt send messages
 
-Now we will do the same for MQTT
-listening to mqtt messages:
+Now we will do the same for MQTT. We setup my ssh session as a listening port, and Roan's ssh session as a sending port.
+Listening to mqtt messages:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2fccaea9-11f9-4a1f-9901-c4d72c7a2797)
 
-sending the message:
+Sending the message:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d5d52172-f2d3-4a52-a829-e8cb051ec730)
 
-receiving the message:
+Receiving the message:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/14b22983-2904-49c2-b01b-68728fef1209)
 
@@ -58,7 +58,7 @@ receiving the message:
 
 ## Testing lights on off
 
-
+The next tast was to simulate a small IoT network. Where we needed to make a 'temperature sensor' which would sent the temperature to the MQTT broker. The MQTT broker would next sent a message to the 'ac' to turn it on or off. Before I started to make it that way, I made it so it would turn on or off a light with code that came with the iotknit library github page. This is the code I used:
 ```css
 from iotknit import *
 
