@@ -2,6 +2,7 @@
 
 ## Getting the rasberry pi ready by changing settings
 
+Our raspberry pi was crashing a lot with sending out a WiFi network. We could not work fully until it was fixed. So after a talk with the teacher we decided to turn off the WiFi part from the raspberry. This is how we did it after Ulrich was done with changing the raspberry pi settings:
 - I shut down the Raspberry Pi router and then powered it back on. 
 - After that, I modified the router LAN address to 192.168.12.254. 
 - Upon restarting the Raspberry Pi, I went into the router settings and assigned a static IP address (192.168.12.1) for - the Raspberry Pi. 
