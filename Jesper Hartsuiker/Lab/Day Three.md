@@ -186,7 +186,8 @@ to run the script use ./random_temps.sh
 
 then the random number will start to come every 10 seconds:
 
-![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e51d80d9-a53f-4e20-9f2a-318496d185fc)
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/237d983c-e058-463f-8429-b9192cbac8e2)
 
-![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/a004c25f-5d00-4df5-ac73-07603740acf2)
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b8b0af5e-ef8e-4794-a773-c6230762a015)
+
 
