@@ -1,3 +1,6 @@
+# Day Two
+
+
     Internet:
         Represents the global system of interconnected computer networks that use the Internet Protocol Suite (TCP/IP) to link devices worldwide. In the context of IoT, it serves as the overarching network connecting different IoT components.
 
