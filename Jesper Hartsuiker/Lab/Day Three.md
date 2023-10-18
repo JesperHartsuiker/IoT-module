@@ -94,7 +94,7 @@ button1.subscribe_change(callback=button1Callback)
 
 run()  # you can also do a while loop here call process() instead
 ```
-## sending lights off
+  
 Next I sent with the mosquitto publisher a message down. It would sent a turn on command to the receiver. The first picture is the mosquitto publisher:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e58b4de3-3146-4441-a64b-eddfa44b1ed3)
@@ -109,6 +109,7 @@ The output in the mosquitto listener:
 
 
 ## turning ac on and off
+Next I changed the code up so it would be the example as listed below, where there is a temperature sensor and the ac. This is the code after I changed it:
 ```css
 from iotknit import *
 
@@ -147,19 +148,21 @@ run()  # you can also do a while loop here call process() instead
 ```
 
 ## sending high temps
+To simulate it, I sent an integer of 26 to the MQTT broker, so it would be 'hot' in the room. This is the result that I got:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7593765e-b8ee-4207-8fe9-0c0b580abfd5)
 
+VSCode terminal output:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/6f87ecd4-052b-49f7-b59e-0946e597e6e5)
 
+Mosquitto output:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/1358d6b6-f175-422c-b6d5-c67073fb325b)
 
 
-
-
 ## sending lower temps
+Next to simulate if the temperature would drop below 20, I put in the integeter 
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/561d6df1-9bb7-4c61-a5b7-65984ae279ea)
 
