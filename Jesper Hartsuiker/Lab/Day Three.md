@@ -162,21 +162,26 @@ Mosquitto output:
 
 
 ## sending lower temps
-Next to simulate if the temperature would drop below 20, I put in the integeter 
+Next to simulate if the temperature would drop below 20, I put in the integeter 18 in. As predicted the 'ac' should turn off, if it was below 20 degrees. 
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/561d6df1-9bb7-4c61-a5b7-65984ae279ea)
 
+VSCode terminal output:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7c5b71a2-3e98-4766-8909-f8539efea6cd)
 
+Mosquitto output:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/989c9a36-ee2e-4cd4-8c88-24e82bf9a42f)
 
 
 ## making random temps
+Next I needed to make the integeters random that had to be sent to the MQTT broker. I chose to make a bash script that does this.  
 
-make a bash script: sudo nano random_temps.sh
-add this code to the script
+To make a bash script, run this command: sudo nano random_temps.sh  
+
+Next I put this code in the script:
+
 ```css
 #!/bin/bash
 
