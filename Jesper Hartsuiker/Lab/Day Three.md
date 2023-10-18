@@ -31,3 +31,18 @@ sending hello world to other client
 receiving hello world on other client
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cd90102a-da18-463e-8fcc-ee204aae99b2)
+
+
+#mqtt send messages
+
+listening to mqtt messages:
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2fccaea9-11f9-4a1f-9901-c4d72c7a2797)
+
+sending the message:
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d5d52172-f2d3-4a52-a829-e8cb051ec730)
+
+receiving the message:
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/14b22983-2904-49c2-b01b-68728fef1209)
