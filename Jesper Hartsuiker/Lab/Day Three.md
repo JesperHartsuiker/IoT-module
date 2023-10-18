@@ -95,12 +95,15 @@ button1.subscribe_change(callback=button1Callback)
 run()  # you can also do a while loop here call process() instead
 ```
 ## sending lights off
+Next I sent with the mosquitto publisher a message down. It would sent a turn on command to the receiver. The first picture is the mosquitto publisher:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e58b4de3-3146-4441-a64b-eddfa44b1ed3)
 
+The output in VSCode:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/768d4f1e-ed69-4ac2-9088-52e29d558850)
 
+The output in the mosquitto listener:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7abecf64-9846-4cd3-ba20-08d029f056bf)
 
