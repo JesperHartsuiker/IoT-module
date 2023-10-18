@@ -190,3 +190,48 @@ then the random number will start to come every 10 seconds:
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b8b0af5e-ef8e-4794-a773-c6230762a015)
 
 
+
+
+
+## hardware
+
+changed the code a tiny bit so it wil take higher temps:
+
+```css
+from iotknit import *
+
+init("192.168.12.1")  # use a MQTT broker on localhost
+
+prefix("switch")  # all actors below are prefixed with /led
+
+switch = publisher("rl")  # create a Thingi interface that publishes to led/led1
+
+def tempCallback(msg):
+    print("received: [temp]", msg)
+
+    try:
+        t = float(msg)
+    except ValueError:
+       print("test")
+       print(ValueError)
+       return
+
+    if t >= 27:
+        switch.publish("set", "on")  # publish updated state
+        print("sending: [rl]", "on")
+    #elif t <= 20:
+     #   switch.publish("set", "off")
+      #  print("sending: [rl]", "off")
+    else:
+        switch.publish("set", "off")
+        print("sending: [rl]", "off")
+        #return
+
+
+prefix("temp-measure")  # change prefix to temp-measure
+
+temp1 = subscriber("temp1")  # subscribe to the top-level topic "temp-measure" without any sub-topic
+temp1.subscribe_change(callback=tempCallback)
+
+run()  # you can also do a while loop here call process() instead
+```
