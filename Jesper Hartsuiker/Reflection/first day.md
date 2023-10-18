@@ -1,6 +1,6 @@
 # First day Reflection
 
-After the first day I made a reflection on the first day. Based on four questions, I made the reflection.
+After the first day I made a reflection on the first day. Based on three questions, I made the reflection.
 
 - What is your take-away, what do you want to remember, what would be your advice?
   - The first day was a fast start up of the module. We started with the module right away after. It was a lot of information at the start of IoT, but that was not too bad. I’m pretty interested in this module subject and want to learn more about it. And also maybe improve a bit in coding. The first day was pretty easy for me and it went by real quick.
