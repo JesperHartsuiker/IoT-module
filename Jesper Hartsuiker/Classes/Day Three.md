@@ -29,7 +29,7 @@ Binary (e.g., Python's pickle and CBOR):
 
 
 
-**MQTT - M2M Communication**
+## MQTT - M2M Communication
 
 **MQ Telemetry Transport or Message Queue Telemetry Transport (MQTT):** MQTT is a lightweight messaging protocol designed for constrained devices and low-bandwidth, high-latency, or unreliable networks. It is used to send messages between devices in remote locations, making it suitable for Internet of Things (IoT) and Machine-to-Machine (M2M) applications.
 
