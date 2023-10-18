@@ -27,6 +27,7 @@ mosquitto_pub --help
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/cc52bc06-8230-4b18-ab5b-aaeb035adb4e)
 
+Now I sent Hello World to Roan, to test if it would work. Below you will see the results.
 sending hello world to other client
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/11971cf5-7a61-4a25-9c9d-44ebdef4d613)
@@ -38,6 +39,7 @@ receiving hello world on other client
 
 ## mqtt send messages
 
+Now we will do the same for MQTT
 listening to mqtt messages:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2fccaea9-11f9-4a1f-9901-c4d72c7a2797)
