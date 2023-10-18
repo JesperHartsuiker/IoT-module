@@ -192,17 +192,19 @@ do
     sleep 10  # Sleep for 10 seconds
 done
 ```
-then give the script executable permissions with the command: sudo chmod +x random_temps.sh
-to run the script use ./random_temps.sh
+When the script is saved it needs executable permissions to be able to be used. I used this command to give the permissions:  
 
-then the random number will start to come every 10 seconds:
+sudo chmod +x random_temps.sh  
+
+To run the script use this command: ./random_temps.sh  
+
+If the script runs, it will sent a random number every 10 seconds. The output into VSCode is shown here:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/237d983c-e058-463f-8429-b9192cbac8e2)
 
+The output for the mosquitto session is seen here:
+
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b8b0af5e-ef8e-4794-a773-c6230762a015)
-
-
-
 
 
 ## hardware
