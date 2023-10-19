@@ -10,3 +10,11 @@ Login with admin and password iotempire.
 Made the node red code.
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/351fdc32-4a95-4cbd-b5f8-6681bb463cee)
+
+
+
+
+
+debugging the not working button presses
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/5ee9fb4e-72f6-40bd-bf73-ebe09e083b54)
