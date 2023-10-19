@@ -1,2 +1,16 @@
 # Day Four
 
+After the fourth day I made a reflection on the fourth day. Based on four questions, I made the reflection.
+
+### What is your take-away, what do you want to remember, what would be your advice?  
+
+The key takeaways of the day include the benefits of a swift start and effective task division. Expanding on the previous day's work was crucial, and completing the Node-Red task was satisfying. Overall, the tasks aligned well with our collective expertise, leading to a productive and enjoyable group experience. My advice is to maintain this effective collaboration and build upon existing knowledge for future tasks.
+        
+### Was there any good/fun “struggling”/exploration?  
+
+The day presented enjoyable challenges, notably in swiftly tackling tasks and overcoming code distribution issues with microcontrollers. Successfully testing the button with the Discord bot brought a satisfying conclusion. These experiences highlighted the significance of perseverance and problem-solving skills, adding excitement to our work.
+
+
+### Any show stoppers – anything where you should reach out to peers or instructors?
+
+Regarding any potential showstoppers or moments that necessitated reaching out to peers or instructors, today was relatively smooth. The only minor hurdle occurred during the initial hour when the Raspberry Pis started crashing due to the heavy load. However, the assistance provided by the instructor was instrumental in swiftly resolving the issue and ensuring the smooth progression of the tasks.
