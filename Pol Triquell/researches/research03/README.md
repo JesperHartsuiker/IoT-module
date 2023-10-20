@@ -103,30 +103,3 @@ Here are the key points and questions that stand out when considering MQTT for M
 * Built-in Security: MQTT supports built-in security features, including user access management, authentication, and the potential for end-to-end encryption, making it suitable for secure IoT applications.
 
 Overall, MQTT's lightweight and efficient nature, along with its suitability for various devices and networks, makes it a standout choice for M2M and IoT communication. Its simple CLI commands, as listed above, allow easy interaction with MQTT brokers for testing and administration.
-
-
-MQTT (MQ Telemetry Transport), originally known as Message Queue Telemetry Transport, is a lightweight and efficient messaging protocol designed for machine-to-machine (M2M) communication and IoT (Internet of Things) applications. It follows a publish-subscribe communication pattern and is widely used for its simplicity and suitability for low-bandwidth and unreliable networks. Here are some of the key aspects of MQTT and the main CLI commands associated with it:
-
-**Main MQTT CLI Commands:**
-
-
-
-**What Stands Out for MQTT:**
-
-1. **Lightweight:** MQTT is designed to be very lightweight, making it suitable for resource-constrained devices and low-bandwidth networks. This efficiency is particularly important for IoT and M2M communication.
-
-2. **Publish-Subscribe Pattern:** The publish-subscribe pattern used in MQTT is a scalable and efficient way to distribute messages to multiple subscribers. It's similar to the Observer pattern in software design, which promotes loose coupling between components.
-
-3. **ISO Standard:** MQTT is an ISO standard (ISO/IEC 20922:2016) and is well-established in the industry, providing a solid foundation for IoT and M2M communication.
-
-4. **Runs Over Various Protocols:** MQTT can run over TCP/IP and other stream-based protocols, making it versatile in terms of network compatibility.
-
-5. **Many Implementations:** There are numerous MQTT broker and client implementations available for various platforms, which fosters interoperability and adoption.
-
-6. **Built-in Security:** MQTT supports built-in security features, including user access management, authentication, and the potential for end-to-end encryption, making it suitable for secure IoT applications.
-
-Overall, MQTT's lightweight and efficient nature, along with its suitability for various devices and networks, makes it a standout choice for M2M and IoT communication. Its simple CLI commands, as listed above, allow easy interaction with MQTT brokers for testing and administration.
-
-
-
-
