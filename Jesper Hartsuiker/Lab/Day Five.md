@@ -85,14 +85,24 @@ Build the emergency alarm based on the button press from the first node. The flo
 
 ## Setting up OLED screen.
 
-First we needed to link up the OLED screen to the board. Then needed to make the put the code on the microcontroller.
+First we needed to link up the OLED screen to the board. Then needed to make the put the code on the microcontroller. I put the code in demo01/OLED/Screen_text. See the code below:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/57563349-e119-4029-9734-414a7af1b10f)
 
-
-
+Upload the code like the previous times. And wait untill it is powered.
+Next I sent Hello to the OLED screen with mqtt send:
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/8d1d8251-6c6c-4e38-827a-dac6c02c9b96)
+
+Then hello wil pop up on the screenn.
+
+
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d2d06ac7-49fa-4630-a734-7b46622e8661)
+
+
+
 
 
 
