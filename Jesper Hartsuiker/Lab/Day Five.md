@@ -38,6 +38,7 @@ Next we got our code from the example dictionary of IoTempire gateway. This code
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/5ba9c37d-5cd9-4f2b-a83f-8b656b930329)
 
 Next we can save the file and close it. Then we need to upload it to the microcontroller again. This is done the same way as in Flashing the Mini D1 esp32 with the gateway.
+
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/41d6d45f-aaa0-4a81-9a6d-cf1084f18a5e)
 
 Once started it, wait till the upload is complete and close the window.
@@ -66,7 +67,7 @@ Next we needed to make a flow in Node-Red, where the input should switch the LED
 
 This video will showcase this:
 
-<video src="videos/IMG_9913.mp4" controls title="Title"></video>
+![Alt text](videos/IMG_9913.mp4)
 
 ## Emergency alarm
 The next assigment was to play a sound and a notification if the button is pressed. We build the emergency alarm based on the button press from the first node.
