@@ -63,7 +63,7 @@ need to change the wifi cause it could not connect:
 
 ## Node 2
 
-
+Made a new node in demo01/LedOnOff/MEGALED/
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e5d81d99-9b74-4d79-b42f-0ccafb8088ee)
 
@@ -76,6 +76,7 @@ need to change the wifi cause it could not connect:
 
 ## Emergency alarm
 
+Build the emergency alarm based on the button press from the first node. The flow for the emergency text and sound is made in Node-Red for the proof of concept.
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d2d06ac7-49fa-4630-a734-7b46622e8661)
 
@@ -84,7 +85,7 @@ need to change the wifi cause it could not connect:
 
 ## Setting up OLED screen.
 
-
+First we needed to link up the OLED screen to the board. Then needed to make the put the code on the microcontroller.
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/57563349-e119-4029-9734-414a7af1b10f)
 
