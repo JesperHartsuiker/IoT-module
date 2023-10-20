@@ -1,18 +1,11 @@
 # Lab Day Five
 
-
-making iot documentation an serving it with the commands
-
-```css
-iot doc make
-iot doc serve
-```
-look at the picture below for the commands:
-
-![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/4fd87916-b409-468a-af35-22cb2d7880ea)
-
-
 ## Flashing the Mini D1 esp32 with the gateway
+
+Change the network it needs to connect to, it is in system.conf in demo01:
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7c381046-191a-4eaf-bd5b-e48f22432ec1)
+
 
 first change node.conf
 you can find it in demo01/test01
@@ -71,3 +64,39 @@ need to change the wifi cause it could not connect:
 
 
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d1569200-d724-4fb4-bcb9-d959cbbb1fcb)
+
+
+## Node 2
+
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/e5d81d99-9b74-4d79-b42f-0ccafb8088ee)
+
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2417b517-d98b-45e7-9e59-05878039d3cf)
+
+
+
+
+## Emergency alarm
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/d2d06ac7-49fa-4630-a734-7b46622e8661)
+
+
+
+
+## Setting up OLED screen.
+
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/57563349-e119-4029-9734-414a7af1b10f)
+
+
+
+
+![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/8d1d8251-6c6c-4e38-827a-dac6c02c9b96)
+
+
+
