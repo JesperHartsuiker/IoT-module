@@ -73,6 +73,10 @@ Made a new node in demo01/LedOnOff/MEGALED/
 
 
 
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/be0c922b-bb62-44e5-904c-32b0ded49b4f
+
+
+
 
 ## Emergency alarm
 
@@ -96,6 +100,7 @@ Next I sent Hello to the OLED screen with mqtt send:
 
 Then hello wil pop up on the screenn.
 
+![IMG_9917](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/a948b3f3-4a7f-481a-b061-e573086a1783)
 
 
 
@@ -105,4 +110,9 @@ Then hello wil pop up on the screenn.
 
 
 
+![IMG_9916](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/df599e3c-d33d-4a61-9394-1e50f08a8662)
+
+
+
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2c8b1f25-0012-4fb1-9d20-041ece3563b1
 
