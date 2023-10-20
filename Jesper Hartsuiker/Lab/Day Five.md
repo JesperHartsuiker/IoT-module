@@ -44,6 +44,7 @@ Next we can save the file and close it. Then we need to upload it to the microco
 Once started it, wait till the upload is complete and close the window.
 
 When we tried to pickup some MQTT signals we found out that it wasn't sending anything to the MQTT broker because of the WiFi. We found out in a SSH session:
+
 ![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/2a9c87d7-4801-48fe-ab38-f223ec81e632)
 
 So we changed the wifi settings to our WiFi and the MQTT broker IP. This was done in the directory demo01/system.conf.
@@ -67,7 +68,7 @@ Next we needed to make a flow in Node-Red, where the input should switch the LED
 
 This video will showcase this:
 
-![Alt text](videos/IMG_9913.mp4)
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/4df14ded-0712-43ef-9d6b-c3b488d4cc7d
 
 ## Emergency alarm
 The next assigment was to play a sound and a notification if the button is pressed. We build the emergency alarm based on the button press from the first node.
@@ -105,4 +106,5 @@ Look at the picture below that it says Emergency! on the screen multiple times.
 
 In this video you can also see the result if the button is pressed.
 
-<video src="videos/IMG_9914.mp4" controls title="Title"></video>
+https://github.com/JesperHartsuiker/IoT-module/assets/82671856/b55fb917-f067-4895-86d4-8668836e304f
+
