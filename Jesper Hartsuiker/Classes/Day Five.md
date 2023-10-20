@@ -16,8 +16,8 @@ Answer these questions about scaling up in IoT:
 2. **User Interfaces with Simplified Configuration:** Intuitive user interfaces and an engine for streamlined configuration can significantly ease the management process during scaling.
 
 ### Role of Components in Scaling:
-1. **Simulators:** Simulators play a crucial role in testing the system's capabilities and responses under various conditions, aiding in identifying potential issues before deployment.
-2. **MQTT:** MQTT facilitates integration, standardizes communication, enhances security, and ensures quality of service, making it a vital component for scaling IoT systems.
+1. **Simulators:** Simulators play a role in testing the system's capabilities and responses under various conditions, aiding in identifying potential issues before deployment of hardware.
+2. **MQTT:** MQTT facilitates integration, standardizes communication, enhances security, and ensures quality of service, making it a important component for scaling IoT systems.
 3. **Stories:** Stories serve as a foundation for testing, providing real-world scenarios to evaluate the system's performance and reliability under different circumstances. They help in creating a more comprehensive and accurate testing strategy.
 
 
