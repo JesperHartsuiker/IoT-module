@@ -2,11 +2,6 @@
 
 ## Flashing the Mini D1 esp32 with the gateway
 
-Change the network it needs to connect to, it is in system.conf in demo01:
-
-![image](https://github.com/JesperHartsuiker/IoT-module/assets/82671856/7c381046-191a-4eaf-bd5b-e48f22432ec1)
-
-
 first change node.conf
 you can find it in demo01/test01
 change the default microcontroller to esp32minikit
