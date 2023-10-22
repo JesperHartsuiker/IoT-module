@@ -2,7 +2,7 @@
 
 # Exercise 05
 
-For the fifth exercise we wrote five different NODE-red programs.
+For the fifth exercise we wrote five different Node-RED programs.
 
 ## Overview
 1. [Device Control with IoTempower](#device-control-with-iotempower)
@@ -100,14 +100,105 @@ Following that, you can save the file and then close it. Afterwards, you will ne
 
 Once you have started the upload, you should wait until the process is complete, and then you can close the window.
 
-In the next video you can see the evidence of this `First node`.
+In the next video you can see the evidence of the `First node`.
 
 https://github.com/JesperHartsuiker/IoT-module/assets/74074466/82c52a1b-7f06-4ef2-a50d-fc2769c17059
 
 ### Example - Second node
 
-In this IoTempower procedure, we will guide you through the necessary steps to set up and test a Wemos D1 Mini for the activity involving the second node, which is designed to activate a light using MQTT on a different ESP32, in our case, the Wemos D1 Mini.
+In this IoTempower procedure, we will guide you through the necessary steps to set up and test a Wemos D1 Mini for the activity involving the second node, which is designed to activate a light using MQTT on a different ESP32.
 
 #### Procedure
 
-According to this task, you have to establish a second Node to control the activation of a light on a different ESP32 using MQTT. As this should be done in a new node created a new node in a fresh directory, specifically 'demo01/LedOnOff/MEGALED.' Afterward, we proceeded to modify the 'setup.cpp' file to manage the on and off functions of the light.
+According to this task, you have to establish a second Node to control the activation of a light on a different ESP32 using MQTT. As, in our case, we splitted ways before, you do not need to do it now. Afterwards, you only need to proceed to modify the `setup.cpp` file to manage the on and off functions of the LED that you will connect in the breadboard.
+
+After editing the LED `setup.cpp` file, you should have a code that looks like this:
+
+   ![LED setup.cpp file](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity05/code/second_node/led_code.png?raw=true)
+
+Following that, let's set up a flow in Node-RED. In this flow, when you press a button, it will control the LED, turning it on and off. The example below demonstrates how it all comes together. Simply click the toggle button once, and the light stays on. Click it again, and the light turns off.
+
+   ![Node-RED flow for second node](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity05/code/second_node/led_code.png?raw=true)
+
+In the next video you can see the evidence of the `Second node`.
+
+VIDEO VIDEO VIDEO
+
+### Example - Guest Arrival Notifier
+
+#### Button to sound and notification
+
+In this IoTempower guide, we will walk you through the process of configuring a physical button device, which is crucial for creating a device that uses MQTT to trigger sound playback and display notifications on the Node-RED dashboard.
+
+In this project, your goal is to create a simple system that notifies you when a guest arrives at your home. When a guest presses a physical button at your home's entrance, the system will send you a notification via MQTT, and you will receive the notification on both your desktop and mobile devices through the Node-RED dashboard.
+
+#### Components and Hardware Needed
+
+   * Wemos D1 Mini (or another compatible microcontroller).
+   * A physical button for the entrance.
+   * A breadboard.
+   * An enclosure for the button and wiring.
+   * An MQTT broker (e.g., Mosquitto) running on the Raspberry Pi.
+   * Computer with Node-RED dashboard app installed.
+
+#### Procedure
+
+1. Hardware Setup
+
+   * Connect the Wemos D1 Mini to the breadboard.
+   * Connect a push-button to the breadboard.
+
+2. Node-RED Setup
+
+   * Install Node-Red on your computer.
+   * Use the MQTT broker that you set up before on your Raspberry Pi.
+
+3. Setting up Node-RED
+
+   * Create a Node-RED flow to proof that you have learned that much about the software.
+
+   ![Node-RED flow for button to sound and notification](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity05/code/button_to_sound_and_notification/button_to_sound_and_notification.png?raw=true)
+
+4. Testing
+
+   * Run the simulation by pressing the physical button on the breadboard.
+   * The Wemos D1 Mini sends an MQTT message to Node-RED.
+   * Node-RED receives the message, triggers a notification, and displays it on your computer (simulating a mobile device) using the Node-RED dashboard.
+
+If the button is pressed, it will send a notification to a dashboard that displays `Team Rocked has arrived!` for 5 seconds. Additionally, a sound will be played from the speaker, saying `Team Rocked has arrived!`.
+
+In the following video, you can view the evidence related to the `Button to sound and notification`.
+
+VIDEO VIDEO VIDEO
+
+#### Text receiver
+
+In this IoTempower guide, we will guide you through configuring an OLED I2C display. Your next task is to explore the provided OLED I2C display and set up an MQTT text receiver. This involves sending a brief message and displaying it on the screen.
+
+To achieve that goal, you need to follow the project that we set up before from the `Guest Arrival Notifier`.
+
+#### Procedure
+
+1. Connecting the OLED Screen:
+   * To start, we connected the OLED screen to our board. This was the first crucial step.
+   * We also created a specific directory to organize the code that would be loaded onto our microcontroller. The code was placed in the directory named `Pol_Toni/guest_arrival_screen/`.
+
+2. Uploading the Code:
+   * Similar to our previous tasks, we uploaded the code to our microcontroller. We waited until the process was completed.
+   * The code allowed us to send messages to the OLED screen, which would then be displayed.
+
+   ![Node-RED flow for text receiver](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity05/code/text_receiver/text_receiver.png?raw=true)
+
+3. Displaying a Simple Greeting:
+   * To test the OLED screen, we sent a message saying "Hello" using MQTT. As a result, the message "Hello" appeared on the screen. In our case, we did not record the example but we have evidence for the improvements that we made in it.
+
+4. Expanding the Assignment:
+   * To make the assignment more comprehensive, we decided to include a button.
+   * Whenever the button was pressed, it triggered a message to be sent to the OLED screen. Specifically, it sent "Team Rocket has arrived!"
+
+5. Creating the Workflow:
+   * To make this happen, you need to expand the workflow from the previous exercise. This should allow the audio message to be displayed on the OLED screen.
+
+In the following video, you can view the evidence related to the `Text receiver`.
+
+VIDEO VIDEO VIDEO
