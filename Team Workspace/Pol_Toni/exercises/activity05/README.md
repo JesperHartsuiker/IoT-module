@@ -122,11 +122,11 @@ Following that, let's set up a flow in Node-RED. In this flow, when you press a 
 
 In the next video you can see the evidence of the `Second node`.
 
-VIDEO VIDEO VIDEO
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/212b46e3-ef2c-4d10-8fd1-25749741c9d3
 
 ### Example - Guest Arrival Notifier
 
-#### Button to sound and notification
+### Button to sound and notification
 
 In this IoTempower guide, we will walk you through the process of configuring a physical button device, which is crucial for creating a device that uses MQTT to trigger sound playback and display notifications on the Node-RED dashboard.
 
@@ -169,9 +169,9 @@ If the button is pressed, it will send a notification to a dashboard that displa
 
 In the following video, you can view the evidence related to the `Button to sound and notification`.
 
-VIDEO VIDEO VIDEO
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/ac2e816e-5459-4116-b0ca-14215ff0f553
 
-#### Text receiver
+### Text receiver
 
 In this IoTempower guide, we will guide you through configuring an OLED I2C display. Your next task is to explore the provided OLED I2C display and set up an MQTT text receiver. This involves sending a brief message and displaying it on the screen.
 
@@ -201,4 +201,4 @@ To achieve that goal, you need to follow the project that we set up before from 
 
 In the following video, you can view the evidence related to the `Text receiver`.
 
-VIDEO VIDEO VIDEO
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/2d383563-a64e-437b-b17e-68ad7c4c8cc8
