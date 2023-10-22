@@ -8,12 +8,13 @@ For the fifth exercise we wrote five different Node-RED programs.
 1. [Device Control with IoTempower](#device-control-with-iotempower)
 2. [Example - Exploring IoTempower Services and Commands](#example---exploring-iotempower-services-and-commands)
 	* [Procedure](#procedure)
-3. [Example - Blink on the Wemos D1 Mini or ESP32 (Pair)](#example---blink-on-the-wemos-d1-mini-or-esp32-pair)
+3. [Example - First node](#example---first-node)
 	* [Procedure](#procedure-1)
-	* [Code for the three types of blinking LED in Wemos D1 Mini](#code-for-the-three-types-of-blinking-led-in-wemos-d1-mini)
-4. [Example - Toggle LED With Button](#example---toggle-led-with-button)
+4. [Example - Second node](#example---second-node)
 	* [Procedure](#procedure-2)
-	* [Code for the toggle LED with Button](#code-for-the-toggle-led-with-button)
+5. [Example - Guest Arrival Notifier](#example---guest-arrival-notifier)
+	* [Button to sound and notification procedure](#procedure-3)
+   * [Text receiver procedure](#procedure-4)
 
 ## Device Control with IoTempower
 
