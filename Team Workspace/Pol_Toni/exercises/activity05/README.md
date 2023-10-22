@@ -102,8 +102,7 @@ Once you have started the upload, you should wait until the process is complete,
 
 In the next video you can see the evidence of this `First node`.
 
-VIDEO VIDEO VIDEO
-
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/82c52a1b-7f06-4ef2-a50d-fc2769c17059
 
 ### Example - Second node
 
