@@ -11,7 +11,7 @@ Within this category, we document a widze array of hands-on exercises and tasks 
 * [Activity 03](/Team%20Workspace/Pol_Toni/exercises/activity03)
 * [Activity 04](/Team%20Workspace/Pol_Toni/exercises/activity04)
 * [Activity 05](/Team%20Workspace/Pol_Toni/exercises/activity05)
-* ...
+* [Activity 06](/Team%20Workspace/Pol_Toni/exercises/activity06)
 
 ## Innovative Projects
 
@@ -31,5 +31,6 @@ This section serves as a repository for various visual materials and images that
 * [Image Galleries for activity03](/Team%20Workspace/Pol_Toni/pictures/activity03)
 * [Image Galleries for activity04](/Team%20Workspace/Pol_Toni/pictures/activity04)
 * [Image Galleries for activity05](/Team%20Workspace/Pol_Toni/pictures/activity05)
+* [Image Galleries for activity06](/Team%20Workspace/Pol_Toni/pictures/activity06)
 
 Feel free to explore and access these resources as they will be valuable in your IoT learning journey.
