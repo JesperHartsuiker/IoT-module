@@ -6,7 +6,7 @@ For the sixth exercise we wrote five different Node-RED programs.
 
 ## Overview
 1. [Device Control with IoTempower](#device-control-with-iotempower)
-2. [Example - RFID reader](#example---exploring-iotempower-services-and-commands)
+2. [Example - RFID reader](#example---rfid-reader)
 	* [Procedure](#procedure)
 
 ## Device Control with IoTempower
@@ -62,7 +62,7 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
    * Run a simulation by bringing a card or badge near the RFID reader.
    * Verify if the RFID code is displayed in the Node-RED dashboard.
 
-   VIDEO VIDEO VIDEO
+   https://github.com/JesperHartsuiker/IoT-module/assets/74074466/4e21bc32-a008-4743-873d-f0a5bad8a287
 
 7. Access Control Integration:
    * Implement a button on the dashboard to indicate access status.
@@ -75,5 +75,4 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
 
 In the following video, you can view the evidence related to the `RFID reader`.
 
-VIDEO VIDEO VIDEO
-
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/b2aac299-46d4-49d9-97b9-022d60810bb8
