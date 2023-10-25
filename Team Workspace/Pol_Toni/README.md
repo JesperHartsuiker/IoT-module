@@ -13,15 +13,6 @@ Within this category, we document a widze array of hands-on exercises and tasks 
 * [Activity 05](/Team%20Workspace/Pol_Toni/exercises/activity05)
 * [Activity 06](/Team%20Workspace/Pol_Toni/exercises/activity06)
 
-## Innovative Projects
-
-Here, we showcase the inventive projects we've initiated as part of our IoT curriculum. These projects involve the application of IoT technologies to create real-world solutions and products.
-
-* [Project 01](/Team%20Workspace/Pol_Toni/projects/project01)
-* [Project 02](/Team%20Workspace/Pol_Toni/projects/project02)
-* [Project 03](/Team%20Workspace/Pol_Toni/projects/project03)
-* ...
-
 ## Visual Resources
 
 This section serves as a repository for various visual materials and images that complement our IoT coursework. These visuals aid in illustrating concepts and enhancing our understanding of IoT technologies.
