@@ -296,3 +296,7 @@ In the following video, you can view the evidence related to the `Creating a Buz
 
 https://github.com/JesperHartsuiker/IoT-module/assets/74074466/1ecc7a89-969b-4c18-b9f5-75a19406a346
 
+## Lock Project 1
+
+For a comprehensive and detailed exposition of this project, please refer to the dedicated section located within [linked here](../../../../Jesper%20Hartsuiker/Lab/23-10-2023.md#lock-project).
+
