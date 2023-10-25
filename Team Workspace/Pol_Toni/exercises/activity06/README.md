@@ -201,8 +201,7 @@ In this IoT prototype, we will demonstrate how to set up PWM control for a LED. 
 
 In the following video, you can view the evidence related to the `Controlling LED Brightness with PWM`.
 
-VIDEO VIDEO VIDEO
-
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/7bf78823-0f32-4846-b653-157ed2c05aea
 
 ### Example - Creating a Buzzer Sound Generator
 
@@ -294,3 +293,6 @@ In this IoT prototyping procedure, we will replace the LED and register with a b
    * Ensure that the buzzer responds correctly to the MQTT messages, and any access control features are functioning as desired.
 
 In the following video, you can view the evidence related to the `Creating a Buzzer Sound Generator`.
+
+https://github.com/JesperHartsuiker/IoT-module/assets/74074466/1ecc7a89-969b-4c18-b9f5-75a19406a346
+
