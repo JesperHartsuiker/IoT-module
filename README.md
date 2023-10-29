@@ -33,5 +33,4 @@ Our IoT Personal Portfolio project is meticulously crafted to exhibit the collec
 
 # Team Workspace
 
-We maintain a dedicated team workspace where we collaborate on this project. You can access our workspace [here](Team%20Workspace).
-
+We operate a dedicated collaborative space where we work together on this project. For access to our sharede environment, please visit [our team hub](Team%20Workspace).

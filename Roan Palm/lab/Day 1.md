@@ -1,4 +1,4 @@
-# First lab day: Learning small things with the Microcontroller.
+# Lab 16-10-2023: Learning small things with the Microcontroller.
 
 During the first lab day we started with learning a bit about the microcontroller that we got and started to code some things to put on some lights. We made the code in the Arduino IDE application. I worked together on this with Roan Palm.
 
@@ -88,3 +88,5 @@ After submitting the code, and running the stopping light after pressing the but
 
 
 https://github.com/JesperHartsuiker/IoT-module/assets/82671856/0e3d5ad1-ae92-4987-a094-dc131720bee5
+
+

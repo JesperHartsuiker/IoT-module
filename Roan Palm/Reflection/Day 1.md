@@ -1,11 +1,11 @@
-# Course Review
+# Reflection 16-10-2023
 
-The initial day of the course was exceptionally positive and engaging. 
-The instructor demonstrated a remarkable level of enthusiasm, 
-which truly made the learning experience enjoyable. Personally, 
-I have a profound passion for hands-on activities, particularly 
-in the realm of constructing and tinkering, and my interest in electronics 
-is especially profound. The assignments that were assigned for us to complete 
-using the ESP (presumably an electronic device or system) were not only manageable 
-but also remarkably clear and easy to follow. Based on this promising beginning, 
-I have a strong inclination to believe that this particular module will become my favorite among all the courses I am taking.
+**Takeaways and Advice:**
+- The first day was a fast start to the module. We dived right into IoT, and it was quite information-packed. Nevertheless, the initial immersion into IoT was not overwhelming. I found the topic intriguing and am eager to learn more. I'm also looking forward to improving my coding skills. The first day seemed relatively easy for me and passed quickly. My advice to others would be to stay engaged and curious, as IoT is a fascinating field.
+
+**Good/Fun "Struggling" and Exploration:**
+- I particularly enjoyed the lab session of the day. I have a preference for hands-on activities, and I find that I learn best when actively working on something. Exploring the practical side, such as attempting to control lights with a microcontroller, was very enjoyable and engaging.
+
+**Show Stoppers and Seeking Help:**
+- Fortunately, I didn't encounter any significant issues with the day's lesson on IoT. I didn't need to seek assistance regarding the IoT content. However, I did find the instructions for the Personal Portfolio somewhat unclear, and I had to reach out to my peers for clarification.
+
