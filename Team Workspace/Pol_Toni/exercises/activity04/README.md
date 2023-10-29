@@ -6,15 +6,15 @@ For the fourth exercise we wrote five different Node-RED programs.
 
 ## Overview
 1. [More Hardware and Integration with Node-RED](#more-hardware-and-integration-with-node-red)
-  * [Requirements](#requirements)
-  * [Procedure](#procedure)
-  * [Hardware Setup](#hardware-setup)
-  * [Writing Arduino Code for Button](#writing-arduino-code-for-button)
-  * [Setting Up Node-RED for Button](#setting-up-node-red-for-button)
-  * [Connecting the LED](#connecting-the-led)
-  * [Writing Arduino Code for LED Control](#writing-arduino-code-for-led-control)
-  * [Setting Up Node-RED for LED](#setting-up-node-red-for-led)
-  * [Testing the System](#testing-the-system)
+   * [Requirements](#requirements)
+   * [Procedure](#procedure)
+   * [Hardware Setup](#hardware-setup)
+   * [Writing Arduino Code for Button](#writing-arduino-code-for-button)
+   * [Setting Up Node-RED for Button](#setting-up-node-red-for-button)
+   * [Connecting the LED](#connecting-the-led)
+   * [Writing Arduino Code for LED Control](#writing-arduino-code-for-led-control)
+   * [Setting Up Node-RED for LED](#setting-up-node-red-for-led)
+   * [Testing the System](#testing-the-system)
 
 ## More Hardware and Integration with Node-RED
 
