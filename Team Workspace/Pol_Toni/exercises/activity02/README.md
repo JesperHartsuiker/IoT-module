@@ -1,6 +1,9 @@
 # Lab Tasks Description
 
 # Exercise 02
+
+For the second exercise we wrote the Persona task.
+
 # Stories/Scenario Task
 
 ## The Persona

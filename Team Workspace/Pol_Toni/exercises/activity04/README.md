@@ -2,7 +2,7 @@
 
 # Exercise 04
 
-For the fourth exercise we wrote five different Node-RED programs.
+For the fourth exercise we wrote two different Node-RED programs.
 
 ## Overview
 1. [More Hardware and Integration with Node-RED](#more-hardware-and-integration-with-node-red)
