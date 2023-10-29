@@ -31,6 +31,6 @@ The "Reflection" section is where my personal insights and thoughts about the Io
 These reflections offer insights into my evolving perspectives on IoT and its role in the world of technology.
 
 # Team Workspace
-Additionally, there is a dedicated section called [Team Workspace]() that provides access to collaborative resources and materials related to our group projects. This section offers a glimpse into the collective efforts and innovative undertakings of our team during the IoT module.
+Additionally, there is a dedicated section called [Team Workspace](../Team%20Workspace/) that provides access to collaborative resources and materials related to our group projects. This section offers a glimpse into the collective efforts and innovative undertakings of our team during the IoT module.
 
 Feel free to navigate through this portfolio to gain insights into the IoT module, from research and practical activities to personal reflections and team collaborations. I hope you find this portfolio valuable in your IoT learning journey.
