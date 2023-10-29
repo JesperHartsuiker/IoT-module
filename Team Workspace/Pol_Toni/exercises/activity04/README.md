@@ -5,14 +5,16 @@
 For the fourth exercise we wrote five different Node-RED programs.
 
 ## Overview
-1. [Requirements](#requirements)
-2. [Hardware Setup](#hardware-setup)
-3. [Writing Arduino Code for Button](#writing-arduino-code-for-button)
-4. [Setting Up Node-RED for Button](#setting-up-node-red-for-button)
-5. [Connecting the LED](#connecting-the-led)
-6. [Writing Arduino Code for LED Control](#writing-arduino-code-for-led-control)
-7. [Setting Up Node-RED for LED](#setting-up-node-red-for-led)
-8. [Testing the System](#testing-the-system)
+1. [More Hardware and Integration with Node-RED](#more-hardware-and-integration-with-node-red)
+  * [Requirements](#requirements)
+  * [Procedure](#procedure)
+  * [Hardware Setup](#hardware-setup)
+  * [Writing Arduino Code for Button](#writing-arduino-code-for-button)
+  * [Setting Up Node-RED for Button](#setting-up-node-red-for-button)
+  * [Connecting the LED](#connecting-the-led)
+  * [Writing Arduino Code for LED Control](#writing-arduino-code-for-led-control)
+  * [Setting Up Node-RED for LED](#setting-up-node-red-for-led)
+  * [Testing the System](#testing-the-system)
 
 ## More Hardware and Integration with Node-RED
 
@@ -102,6 +104,8 @@ Replace `"Your_WiFi_Name"`, `"Your_WiFi_Password"`, and `"MQTT_Broker_IP_Address
 
 3. Setting Up Node-RED for Button
   * Create a Node-RED flow that subscribes to the MQTT topic where button state information is published. Use MQTT nodes available in Node-RED for this purpose.
+
+  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity04/emergency_button.png?raw=true)
 
 4. Connecting the LED
   * Connect an LED to a digital pin on your board. In the provided code, we will use pin 27, but you can choose a different pin if needed.
@@ -214,6 +218,8 @@ Replace `"Your_WiFi_Name"`, `"Your_WiFi_Password"`, and `"MQTT_Broker_IP_Address
 
 6. Setting Up Node-RED for LED
   * Create a Node-RED flow that interacts with your ESP8266/ESP32 and MQTT broker. Ensure the flow includes an MQTT input node to subscribe to the `light_switch` topic.
+
+  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity04/led_emergency_button.png?raw=true)
 
 7. Testing the System
   * Deploy your Node-RED flows.
