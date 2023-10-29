@@ -5,7 +5,7 @@ Welcome to the IoT module activities repository! Here, you'll find a collection 
 ## Root Folder: [IoT-module](https://github.com/JesperHartsuiker/IoT-module/tree/main/#iot-module-project-progress-portfolio)
 
   * Activity Overview:
-    * The activities in this repository are numbered from 01 to 06, each represented as a separate folder named "ActivityXX", corresponding to its activity number (e.g., "Activity01" for the first activity).
+    * The activities in this repository are numbered from 01 to 06, each represented as a separate folder named "activityXX", corresponding to its activity number (e.g., "activity01" for the first activity).
 
   * Detailed Instructions:
     * Inside each "ActivityXX" folder, you'll find a comprehensive `README.md` file. This document serves as your guide, offering a clear understanding of the activity's objectives, requirements, and step-by-step instructions.
