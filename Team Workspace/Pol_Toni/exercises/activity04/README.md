@@ -105,7 +105,7 @@ Replace `"Your_WiFi_Name"`, `"Your_WiFi_Password"`, and `"MQTT_Broker_IP_Address
 3. Setting Up Node-RED for Button
   * Create a Node-RED flow that subscribes to the MQTT topic where button state information is published. Use MQTT nodes available in Node-RED for this purpose.
 
-  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity04/emergency_button.png?raw=true)
+  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/254683444456181f34c39c8fe41dbdf13fdebad0/Team%20Workspace/Pol_Toni/pictures/activity04/node-red%20flows/emergency_button.png?raw=true)
 
 4. Connecting the LED
   * Connect an LED to a digital pin on your board. In the provided code, we will use pin 27, but you can choose a different pin if needed.
@@ -219,7 +219,7 @@ Replace `"Your_WiFi_Name"`, `"Your_WiFi_Password"`, and `"MQTT_Broker_IP_Address
 6. Setting Up Node-RED for LED
   * Create a Node-RED flow that interacts with your ESP8266/ESP32 and MQTT broker. Ensure the flow includes an MQTT input node to subscribe to the `light_switch` topic.
 
-  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity04/led_emergency_button.png?raw=true)
+  ![Node-RED flow for Emergency button](https://github.com/JesperHartsuiker/IoT-module/blob/254683444456181f34c39c8fe41dbdf13fdebad0/Team%20Workspace/Pol_Toni/pictures/activity04/node-red%20flows/led_emergency_button.png?raw=true)
 
 7. Testing the System
   * Deploy your Node-RED flows.
