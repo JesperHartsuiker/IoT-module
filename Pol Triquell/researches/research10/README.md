@@ -320,4 +320,4 @@ Please note that these instructions are provided as a general guide. The specifi
 # Use the Certificates to Secure Communication with the mqttbroker
 
 ## Secure the communication with the mqttbroker
-For a comprehensive and detailed exposition of this section, please refer to the dedicated section located within [linked here](../../../Jesper%20Hartsuiker/Lab/30-10-2023.md#group-task-add-package-repository-to-openwrt).
+For a comprehensive and detailed exposition of this section, please refer to the dedicated section located within [linked here](../../../Jesper%20Hartsuiker/Lab/31-10-2023.md#install-cert-on-firefox).
