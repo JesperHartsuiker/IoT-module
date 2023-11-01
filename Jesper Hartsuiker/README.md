@@ -3,8 +3,8 @@
 In this document you can find all the actions done during the IoT module in Austria for the minor Global Acting in IT.
 
 ## Hardware list
-
-Listlistlist (still needs to be added)
+The hardware list of items we got during the module is found here: 
+<a href="https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing"> Hardware List </a>
 
 ## First week
 ### First day, 16-10-2023
