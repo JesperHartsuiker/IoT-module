@@ -4,7 +4,7 @@ In this section, we keep a comprehensive collection of all the practical activit
 
 ## Hardware List
 
-For a comprehensive list of hardware required for the IoT module, please refer to the [IoT Hardware List](https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing) provided by the teachers. This list outlines the essential components and devices necessary for successful participation in the course.
+For a comprehensive list of hardware required for the IoT module, please refer to the [IoT Hardware List](https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing). This list outlines the essential components and devices necessary for successful participation in the course.
 
 ## Smaller Groups
 
