@@ -24,8 +24,8 @@ Yes, there were enjoyable aspects of "struggling" and exploration during the IoT
 
 * Experimenting with Arduino and facing challenges in coding and debugging provided a fun and engaging learning experience.
 * Exploring various LED examples and experimenting with IoT applications felt like a fresh start and added excitement to the learning process.
-* Collaborating with a partner to tackle tasks and create a GitHub repository for personal portfolios and team projects was an amazing experience, filled with teamwork and exploration.
+* Collaborating with Antonia to tackle tasks and create by myself a GitHub repository structure for personal portfolios and team projects was an amazing experience, filled with teamwork and exploration, helped to have a nice organization of our contents.
 
 ### Any show stoppers – anything where you should reach out to peers or instructors?
 
-There was one significant "showstopper" moment when configuring a complex IoT project. In this situation, I reached out to both instructors and peers for assistance. Their insights and solutions were invaluable in overcoming the obstacle and progressing with the project. This highlights the importance of seeking help when encountering major challenges, as the support of peers and instructors can be a crucial part of the learning process.
+There was one significant "showstopper" moment when configuring a complex IoT project. In this situation, I reached out to both instructors, Jesper and Roan for assistance. Their insights and solutions were invaluable in overcoming the obstacle and progressing with the project. This highlights the importance of seeking help when encountering major challenges, as the support of peers and instructors can be a crucial part of the learning process.
