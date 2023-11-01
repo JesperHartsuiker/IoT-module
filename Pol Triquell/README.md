@@ -8,11 +8,11 @@ This portfolio is a compilation of the reports, research, and reflections relate
 
 ## Hardware List
 
-For a comprehensive list of hardware required for the IoT module, please refer to the [IoT Hardware List](https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing) provided by the teachers. This list outlines the essential components and devices necessary for successful participation in the course.
+For a comprehensive list of hardware required for the IoT module, please refer to the [IoT Hardware List](https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing). This list outlines the essential components and devices necessary for successful participation in the course.
 
-## Research
+## Ulno Research
 
-In the "Research" section, you will find a comprehensive collection of research tasks assigned by Ulno. These tasks are designed to deepen our understanding of IoT concepts and their practical applications. The research tasks are organized as follows:
+In the "Ulno Research" section, you will find a comprehensive collection of research tasks assigned by Ulno. These tasks are designed to deepen our understanding of IoT concepts and their practical applications. The Ulno research tasks are organized as follows:
 
 - [Research 01](/Pol%20Triquell/researches/research01)
 - [Research 02](/Pol%20Triquell/researches/research02)
@@ -21,11 +21,20 @@ In the "Research" section, you will find a comprehensive collection of research 
 - [Research 05](/Pol%20Triquell/researches/research05)
 - [Research 06](/Pol%20Triquell/researches/research06)
 
-These tasks cover various aspects of IoT technology and its implications.
+These tasks cover various aspects of IoT technology and its implications as assigned by Ulno.
 
-## Reflection
+## Volker Research
 
-The "Reflection" section is where my personal insights and thoughts about the IoT module are documented. This section contains reflections as follows:
+In the "Volker Research" section, you will find another set of research tasks assigned by Volker. These tasks complement our understanding of IoT concepts and their practical applications. The Volker research tasks are organized as follows:
+
+- [Research 09](/Pol%20Triquell/researches/research09)
+- [Research 10](/Pol%20Triquell/researches/research10)
+
+These tasks provide additional insights into IoT technology and its implications as assigned by Volker.
+
+## Ulno Reflections
+
+The "Ulno Reflections" section is where my personal insights and thoughts about the IoT module as assigned by Ulno are documented. This section contains reflections as follows:
 
 - [Reflection 01](/Pol%20Triquell/reflections/reflection01)
 - [Reflection 02](/Pol%20Triquell/reflections/reflection02)
@@ -34,7 +43,16 @@ The "Reflection" section is where my personal insights and thoughts about the Io
 - [Reflection 05](/Pol%20Triquell/reflections/reflection05)
 - [Reflection 06](/Pol%20Triquell/reflections/reflection06)
 
-These reflections offer insights into my evolving perspectives on IoT and its role in the world of technology.
+These Ulno reflections offer insights into my evolving perspectives on IoT and its role in the world of technology as assigned by Ulno.
+
+## Volker Reflections
+
+The "Volker Reflections" section is where my personal insights and thoughts about the IoT module as assigned by Volker are documented. This section contains reflections as follows:
+
+- [Reflection 09](/Pol%20Triquell/reflections/reflection09)
+- [Reflection 10](/Pol%20Triquell/reflections/reflection10)
+
+These Volker reflections provide additional insights into my evolving perspectives on IoT and its role in the world of technology as assigned by Volker.
 
 ## Team Workspace
 
