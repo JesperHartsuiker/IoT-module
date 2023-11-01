@@ -28,4 +28,4 @@ Yes, there were enjoyable aspects of "struggling" and exploration during the IoT
 
 ### Any show stoppers – anything where you should reach out to peers or instructors?
 
-There was one significant "showstopper" moment when configuring a complex IoT project. In this situation, I reached out to both instructors and Jesper and Roan for assistance. Their insights and solutions were invaluable in overcoming the obstacle and progressing with the project. This highlights the importance of seeking help when encountering major challenges, as the support of peers and instructors can be a crucial part of the learning process.
+There was one significant "showstopper" moment when configuring a complex IoT project. In this situation, I reached out to both instructors, Jesper and Roan for assistance. Their insights and solutions were invaluable in overcoming the obstacle and progressing with the project. This highlights the importance of seeking help when encountering major challenges, as the support of peers and instructors can be a crucial part of the learning process.

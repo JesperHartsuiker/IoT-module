@@ -8,7 +8,7 @@
 
 The challenges brought about several valuable insights:
 
-  * Efficiency in Collaboration: The challenge was notably enjoyable, as it demonstrated the effectiveness of collaborative problem-solving. Partnering with someone made the process feel like a breeze. Dividing the tasks among us allowed us to achieve our goal even more swiftly.
+  * Efficiency in Collaboration: The challenge was notably enjoyable, as it demonstrated the effectiveness of collaborative problem-solving. Partnering with Antonia made the process feel like a breeze. Dividing the tasks among us allowed us to achieve our goal even more swiftly.
 
   * Fun and Learning: The joy derived from using the buzzer to create amusing sounds was a memorable part of the day. It provided a fun and interactive element to our learning experience.
 

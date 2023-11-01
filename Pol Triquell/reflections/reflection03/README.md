@@ -8,11 +8,11 @@
 
 From this experience, several takeaways stand out:
 
-  * Importance of a Quick Start: Getting a quick start on the course material is vital, as it allows more time for experimentation and practical work. I learned that diving into the subject matter promptly can be immensely beneficial.
+  * Getting a quick start on the course material is vital, as it allows more time for experimentation and practical work. I learned that diving into the subject matter promptly can be immensely beneficial.
 
-  * Value of Concise Theory: The concise theory provided during the course was particularly helpful. It ensured that we had the necessary background knowledge without overwhelming us with excessive information. I would recommend embracing this approach in future courses to facilitate effective learning.
+  * The concise theory provided during the course was particularly helpful. It ensured that we had the necessary background knowledge without overwhelming us with excessive information. I would recommend embracing this approach in future courses to facilitate effective learning.
 
-  * Benefits of Seeking Help: When encountering technical difficulties, seeking assistance is key. Communicating via MQTT was surprisingly straightforward, but when it came to hardware, I faced multiple challenges. Collaborating with peers and seeking their expertise, as well as utilizing the knowledge of instructors, was crucial in overcoming these hurdles. My advice is not to hesitate to ask for help, as it can save significant time and effort.
+  * When encountering technical difficulties, seeking assistance is key. Communicating via MQTT was surprisingly straightforward, but when it came to hardware, we faced multiple challenges. Collaborating with Antonia, Jan, Jesper and Roan and seeking their expertise, as well as utilizing the knowledge of Ulno, was crucial in overcoming these hurdles. My advice is not to hesitate to ask for help, as it can save significant time and effort.
 
 ### Was there any good/fun “struggling”/exploration?
 
@@ -26,7 +26,7 @@ Certainly, there were moments of enjoyable struggle and exploration, notably:
 
 My interactions with peers and instructors played a critical role in overcoming show stoppers:
 
-  * My computer's issues, network connection problems, and the inability to configure the router were significant roadblocks. In this regard, my peers provided crucial assistance. They were instrumental in helping us navigate the complexities of the hardware setup.
+  * My computer's issues, network connection problems, and the inability to configure the router were significant roadblocks. In this regard, Ulno provided crucial assistance. He was instrumental in helping us navigate the complexities of the hardware setup.
 
   * We also sought help from instructors when dealing with the hotspot configuration of our Raspberry Pi, which proved to be a technical challenge.
 
