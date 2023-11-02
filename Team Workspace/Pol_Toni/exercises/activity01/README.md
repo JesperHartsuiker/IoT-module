@@ -90,13 +90,17 @@ In this IoT device configuration and programming exercise, we will outline the s
 
 	To experiment with asynchronous LED blinking we made a script to do it easily.
 
+In the following image, you can clearly observe the evidence that the system was fully operational, verifying the successful functionality of the implemented components and software.
+
+![Blink on the Wemos D1 Mini or ESP32](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity01/blinking_async_led.JPEG?raw=true)
+
 #### Code for the three types of blinking LED in Wemos D1 Mini
 
-Here you can find the code for the Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_blink.ino)
+Here you can find the code for the Blinking LED -> [example_blink.ino](../activity01/example_blink/)
 
-Here you can find the code for the Sync Blinking LED -> [example_sync_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_sync_blink.ino)
+Here you can find the code for the Sync Blinking LED -> [example_sync_blink.ino](../activity01/example_sync_blink/)
 
-Here you can find the code for the Async Blinking LED -> [example_blink.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_async_blink.ino)
+Here you can find the code for the Async Blinking LED -> [example_async_blink.ino](../activity01/example_async_blink/)
 
 ### Example - Toggle LED With Button
 
@@ -129,4 +133,8 @@ In this task, we'll guide you through the process of adding a button to your bre
 
 #### Code for the toggle LED with Button
 
-Here you can find the code for the Toggle LED with Button -> [example_toggle_led_with_button.ino](Team%20Workspace/Pol_Toni/exercises/activity01/example_toggle_led_with_button.ino)
+Here you can find the code for the Toggle LED with Button -> [example_toggle_led_with_button.ino](../activity01/example_toggle_led_with_button/)
+
+In the following video, you can clearly observe the evidence that the system was fully operational, verifying the successful functionality of the implemented components and software.
+
+VIDEO VIDEO VIDEO
