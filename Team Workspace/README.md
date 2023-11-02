@@ -2,6 +2,10 @@
 
 In this section, we keep a comprehensive collection of all the practical activities, visual resources, and innovative undertakings we've embarked on during our IoT module exercise sessions.
 
+## Hardware List
+
+For a comprehensive list of hardware required for the IoT module, please refer to the [IoT Hardware List](https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing). This list outlines the essential components and devices necessary for successful participation in the course.
+
 ## Smaller Groups
 
 At the guidance of our instructors, we divided the Team Rocket group into two smaller groups to enhance our learning experience. The groups are as follows:
