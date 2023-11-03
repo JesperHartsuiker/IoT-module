@@ -182,6 +182,7 @@ void loop(void) {
 
 ## Turning Light On and Off with a Button
 
+The code: 
 
 ```cpp
 #include <Arduino.h>
@@ -287,7 +288,7 @@ void offFunction() {
     USE_SERIAL.printf("[HTTP] GET... failed, error: %s\n", http.errorToString(httpCode).c_str());
   }
   http.end();
-}
+}       
 
 The result is: 
 

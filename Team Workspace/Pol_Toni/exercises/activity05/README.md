@@ -31,6 +31,7 @@ In this IoT prototyping procedure, we will guide you through the necessary steps
    * Open a web browser and enter the website URL, which can be either `gw.iotempire.net` or `192.168.12.1` into the address bar.
 
    ![IoTempower Local Web Portal](https://github.com/JesperHartsuiker/IoT-module/blob/4ab50c59138ede71e3494f7aa3bda28d093577ce/Team%20Workspace/Pol_Toni/pictures/activity05/iotempower_local_web_portal.png?raw=true)
+   
 
 2. Choose Documentation Options:
    * On the main webpage, you have two options:
