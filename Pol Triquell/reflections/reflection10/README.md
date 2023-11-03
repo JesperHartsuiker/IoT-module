@@ -8,11 +8,11 @@
 
 From today's session, I drew several key takeaways and pieces of advice:
 
-  * Uninspiring Day: Much like yesterday, today has continued to be rather uneventful. I didn't find much meaning in the section on cybersecurity that we covered today. The slides seemed convoluted, and the explanations were overly specific. Additionally, I didn't have enough time to complete all the tasks assigned by the professor.
+  * Uninspiring Day: Much like yesterday, today has continued to be rather uneventful. I did not find much meaning in the section on cybersecurity that we covered today. The slides seemed convoluted, and the explanations were overly specific. Additionally, I did not have enough time to complete all the tasks assigned by the professor, Volker.
 
-  * Certificate Creation: Today, I managed to create a certificate on my own by following the instructions from the slides. However, I believe this part needed more thorough explanations as the instructions consisted of screenshots that made it challenging to copy or understand the information clearly and concisely. The other tasks appeared difficult because there were no step-by-step instructions provided. Nevertheless, I succeeded in installing this certificate in the Mozilla Firefox browser.
+  * Certificate Creation: Today, I managed to create a certificate on my own by following the instructions from the slides. However, I believe this part needed more thorough explanations as the instructions consisted of screenshots that made it challenging to copy or understand the information clearly and concisely. The other tasks appeared difficult as there were no step-by-step instructions provided. Nevertheless, I succeeded in installing this certificate in the Mozilla Firefox browser.
 
-  * Feedback and Repository: I received feedback from Professor Ulno on my Github repository work, enabling me to see areas for improvement and alignment with the professor's desired structure for the portfolio. In recent days, I had been quite focused and concerned about the repository's structure, and receiving the professor's feedback today has made me feel more confident about the work that needs to be submitted with the portfolio.
+  * Feedback and Repository: I received feedback from Professor Ulno on my Github repository work, enabling me to see areas for improvement and alignment with the professor's desired structure for the portfolio. In recent days, I had been quite focused and concerned about the repository's structure, and receiving the professor's feedback today has made me feel more confident about the work that needs to be submitted.
 
   * Previous Experience: I had previously created a certificate, and that is why this part also seemed relatively easy to me. However, I had created it from the Linux command line rather than using a graphical interface like XCA.
 

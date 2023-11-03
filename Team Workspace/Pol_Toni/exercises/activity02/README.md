@@ -67,6 +67,7 @@ IoT (Internet of Things) architecture involves the interconnection of various co
    *Example:* In an agricultural IoT system, nodes include soil moisture sensors, drones for crop monitoring, and a central control node for decision-making.
 
 Here's a simplified architecture sketch:
+
 ![Alt text](<../../pictures/activity02/architecture_scetch .png>)
 
 # LAB: Control LED with Web Request
@@ -160,6 +161,7 @@ void loop(void) {
   server.handleClient();
   delay(2); // allow the CPU to switch to other tasks
 }
+```
 
 ## We check the serial monitor : 
 
@@ -288,7 +290,12 @@ void offFunction() {
     USE_SERIAL.printf("[HTTP] GET... failed, error: %s\n", http.errorToString(httpCode).c_str());
   }
   http.end();
+<<<<<<< HEAD
 }       
+=======
+}
+```
+>>>>>>> 53a69f90ba11efc1f7841a05ac6741fd9530da76
 
 The result is: 
 

@@ -8,9 +8,9 @@
 
 Key takeaways from the day include:
 
-  * Perseverance and Not Losing Hope in Problem Solving: A significant take-away is the reminder that perseverance in problem-solving is crucial. This day's experiences highlighted the importance of not losing hope when faced with challenges. The satisfaction that comes from overcoming obstacles can be a powerful motivator.
+  * A significant take-away is the reminder that perseverance in problem-solving is crucial. This day's experiences highlighted the importance of not losing hope when faced with challenges. The satisfaction that comes from overcoming obstacles can be a powerful motivator.
 
-  * Advice for Effective Collaboration: I would advise my peers to retain this spirit of collaboration and build upon existing knowledge as we move forward. This approach can significantly enhance our productivity and enrich our group experiences.
+  * I would advise my peer Antonia to retain this spirit of collaboration and build upon existing knowledge as we move forward. This approach can significantly enhance our productivity and enrich our group experiences.
 
 ### Was there any good/fun “struggling”/exploration?
 
@@ -26,6 +26,6 @@ The day provided opportunities for enjoyable challenges and exploration:
 
 ### Any show stoppers – anything where you should reach out to peers or instructors?
 
-While the day presented substantial challenges, the process of addressing them was relatively smooth. However, the instructor's swift and effective assistance played a pivotal role in promptly resolving this issue, ensuring the seamless continuation of our tasks.
+While the day presented substantial challenges, the process of addressing them was relatively smooth. However, Ulno's swift and effective assistance played a pivotal role in promptly resolving this issue, ensuring the seamless continuation of our tasks.
 
 In summary, the day's experiences underscore the importance of efficient problem-solving, perseverance, and effective collaboration. These qualities are pivotal in overcoming technical challenges and ensuring productive group work. Additionally, the need for timely and proactive troubleshooting in response to hardware and software issues became evident, emphasizing the significance of maintaining a flexible approach to problem resolution.
