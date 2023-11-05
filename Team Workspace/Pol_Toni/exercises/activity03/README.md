@@ -1,43 +1,49 @@
-Before we started the exercises, we had to fix the raspberry pi that was crashing a lot with sending the WIFI network. We could not work fully until it was fixed. So after a talk with the teacher, we decided to turn off the WiFi part from the raspberry. This is how we did it after Ulrich was done with changing the raspberry pi settings:
+# Lab Tasks Description
 
-1. Shut down the Raspberry Pi router and then powered it back on.
+# Exercise 03
 
-2. After that, I modified the router LAN address to 192.168.12.254.
+For the third exercise we wrote two different Node-RED programs.
 
-3. Upon restarting the Raspberry Pi, I went into the router settings and assigned a static IP address (192.168.12.1) for the Raspberry Pi.
+## Before Addressing the Exercises
 
-4. I accessed the Raspberry Pi via SSH and used the command "sudo reboot".
+Before we delved into the exercises, a persisting issue with the Raspberry Pi came to our attention. This issue involved frequent crashes while attempting to connect to the Wi-Fi network. This predicament severely impeded our progress, leaving us unable to work effectively. After consulting with Ulrich, a unanimous decision was made to disable the Wi-Fi functionality on the Raspberry Pi. The following steps detail how we rectified this situation, with Ulrich taking the lead in adjusting the Raspberry Pi settings:
 
-5. Now, the Raspberry Pi is assigned the IP address 192.168.12.1.
+1. We initiated the resolution process by shutting down the Raspberry Pi router before powering it back on.
 
-![Alt text](../../pictures/activity03/raspberrypi_fix.png)
+2. Subsequently, the router's LAN address was reconfigured to 192.168.12.254.
 
-First exercise
+3. Upon restarting the Raspberry Pi, we accessed the router settings and assigned a static IP address (192.168.12.1) to the Raspberry Pi.
 
-After completing the configuration of the Raspberry Pi, it now has an assigned IP address, which is 192.168.12.1. This IP address is like a unique identifier that allows us to connect to and communicate with the Raspberry Pi on our network.
+4. An SSH connection was established to the Raspberry Pi, and the command "sudo reboot" was issued.
 
-To set up the MQTT Mosquitto settings on our Raspberry Pi, we need to use SSH. SSH enables us to access our Raspberry Pi remotely, so we can configure the MQTT Mosquitto settings.
+5. Consequently, the Raspberry Pi was assigned the IP address 192.168.12.1.
 
+![Raspberry Pi Fix](../../pictures/activity03/raspberrypi_fix.png)
 
-![Alt text](../../pictures/activity03/mosquitto1.png)
+### Example - The Initial Exercise
 
-To access the message subscription options of Mosquitto, simply use the following command in your terminal:
+With the Raspberry Pi now successfully configured, it has been assigned the unique identifier of 192.168.12.1, enabling us to connect to and communicate with it within our network.
 
-To access the message subscription options of Mosquitto, simply use the following command in your terminal:
+To configure the MQTT Mosquitto settings on our Raspberry Pi, SSH proved to be indispensable. SSH allowed us to remotely access the Raspberry Pi, facilitating the configuration of MQTT Mosquitto settings.
+
+![Mosquitto Configuration](../../pictures/activity03/mosquitto1.png)
+
+For accessing Mosquitto's message subscription options, you can simply employ the following command in your terminal:
 
 ```bash
 mosquitto_sub --help
 ```
 
-Executing this command will present a comprehensive list of available parameters and usage guidelines, facilitating the effective subscription to MQTT messages.
+Running this command will provide an exhaustive list of available parameters and usage guidelines, making it straightforward to subscribe to MQTT messages.
 
-![Alt text](../../pictures/activity03/mosquitto2.png)
+![Mosquitto Subscription Options](../../pictures/activity03/mosquitto2.png)
 
-To access Mosquitto's message publishing options, you can employ the following command in your terminal:
+To explore Mosquitto's message publishing options, the following command can be utilized in your terminal:
 
 ```bash
 mosquitto_pub --help
 ```
 
-Running this command will provide a detailed list of available parameters and usage instructions, making it straightforward to publish messages using MQTT.
+Executing this command will furnish you with an exhaustive list of available parameters and usage instructions, making the process of publishing messages using MQTT exceptionally user-friendly.
+
 
