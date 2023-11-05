@@ -2,7 +2,7 @@
 
 # Exercise 03
 
-For the third exercise we wrote two different Node-RED programs.
+For the third exercise we followed the lab task documentation.
 
 ## Before Addressing the Exercises
 
