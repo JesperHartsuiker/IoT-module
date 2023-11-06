@@ -44,4 +44,4 @@ Simulators are essential in testing the system's capabilities and responses unde
 MQTT plays a vital role in facilitating integration, standardizing communication, enhancing security, and ensuring quality of service, making it a critical component for scaling IoT systems.
 
 3. Testing Scenarios:
-Testing scenarios serve as the foundation for evaluating the system's performance and reliability under various circumstances, providing real-world situations for a more comprehensive and accurate testing strategy.
+Testing scenarios serve as the foundation for evaluating the system's performance and reliability under various circumstances, providing real-world situations for a more comprehensive and accurate testing strategy. 
