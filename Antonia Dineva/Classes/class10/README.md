@@ -134,7 +134,8 @@ This guide will walk you through the process of installing XCA, a certificate ma
 ### Linux:
 1. XCA may be available in your distribution's software repository. Install it using your package manager. For example, on Ubuntu, you can use the following command:
 
-   ```shell
+   ```
+   shell
    sudo apt-get install xca
    ```
 
@@ -142,183 +143,10 @@ This guide will walk you through the process of installing XCA, a certificate ma
 
 ## Creating a Certificate in XCA
 
-This guide offers a step-by-step walkthrough for creating a certificate using XCA, an essential tool for certificate management. We will cover the process of setting up a Root Certificate Authority (CA) and generating an End Entity certificate for MQTT Broker.
-
-## Step 1: Launch XCA
-Begin by opening the XCA application on your system.
-
-## Step 2: Create a New Database
-1. Access the `File` menu.
-2. Choose the `Create a new Database` option.
-
-## Step 3: Generate a New Certificate
-1. Click the `New Certificate` button.
-
-## Step 4: Configure Certificate Template
-1. In the `Template for the new certificate` section, select `[default] CA`.
-2. Confirm your choice by clicking `Apply all`.
-
-![Configure Certificate Template](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_1.png?raw=true)
-
-## Step 5: Define Subject Information
-1. Navigate to the `Subject` section.
-2. Configure the subject details as per your requirements.
-
-![Subject Configuration](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_2.png?raw=true)
-
-## Step 6: Generate a New Key
-1. In the same menu, locate the `Generate a new key` button.
-2. Set the `Keysize` to a secure 8192 bits.
-3. Initiate the key generation process by clicking `Create`.
-
-![Key Generation](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_3.png?raw=true)
-
-## Step 7: Confirmation of Private Key Generation
-1. A pop-up notification should appear, confirming the successful creation of the RSA private key, e.g., `'Root CA - GA in IT'`.
-2. Acknowledge this confirmation by pressing `OK`.
-
-![Private Key Confirmation](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_success_4.png?raw=true)
-
-## Step 8: Select the Private Key
-1. Opt to `Use keys too`.
-2. The private key, such as `'Root CA - GA in IT'` should be visible in the list.
-
-![Select the Private Key](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_5.png?raw=true)
-
-## Step 9: Configure Certificate Extensions
-![Extensions Configuration](image_url_for_step_9)
-1. Verify that your `Extensions` menu resembles the provided image.
-2. Ensure that the `Critical` and `X509v3 Subject Key Identifier` options are selected.
-
-![Configure Certificate Extensions](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_6.png?raw=true)
-
-## Step 10: Key Usage and Advanced Configuration
-1. Confirm that your `Key Usage` menu matches the image provided.
-
-![Key Usage Configuration](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_7.png?raw=true)
-
-2. Confirm that your `Advanced` menu matches the image provided.
-
-![Advanced Configuration](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_8.png?raw=true)
-
-## Step 11: Confirm and Save
-1. Verify the configured settings.
-2. Press `OK`.
-3. Expect a pop-up message affirming the successful creation of the certificate (e.g., `'Root CA - GA in IT'`). Acknowledge it by pressing `OK`.
-
-![Configure Certificate Extensions](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_9.png?raw=true)
-
-## Step 12: Export the Certificate
-1. Navigate to the `Private Keys` menu and confirm the presence of your private key.
-
-![Export the Certificate](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_10.png?raw=true)
-
-## Step 13: Create an End Entity Certificate
-1. Return to the `Certificates` menu.
-
-![Certificates List Menu](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_11.png?raw=true)
-
-2. Choose the `Export` option in the right menu.
-
-## Step 14: Configure the Export Settings
-1. Configure the export settings, as demonstrated in the image.
-2. If `Export Format` is not available, set it to `PEM (*.crt)`.
-3. Indicate the file's destination.
-4. Confirm your selections by clicking `OK`.
-
-![Export the Certificate Settings](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_12.png?raw=true)
-
-## Step 15: Close the Export Menu
-1. The export menu should close.
-
-## Step 16: Generate a New Certificate (End Entity)
-1. Select `New Certificate` from the right menu.
-2. Replicate the properties established in the previous certificate.
-3. Modify the Internal Name to `'End Entity - GA in IT - MQTT Broker'`.
-
-![Generate a New Certificate (End Entity)](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_13.png?raw=true)
-
-## Step 17: Generate a New Key
-1. Click the `Generate a new key` button.
-2. Set the `Keysize` to a secure 8192 bits.
-3. Initiate the key creation process by clicking `Create`.
-
-![Generate a New Key](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_14.png?raw=true)
-
-## Step 18: Confirmation of Private Key Generation
-1. Anticipate a confirmation pop-up, indicating the successful creation of the RSA private key (e.g., `'End Entity - GA in IT - MQTT Broker'`). Confirm this notification by pressing `OK.`
-
-![Private Key Confirmation (End Entity)](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_15.png?raw=true)
-
-## Step 19: Configure Extensions
-1. Validate that your `Extensions` menu matches the provided image.
-2. Select both the `Critical` and `X509v3 Subject Key Identifier` options.
-3. Adjust the `Time Range` to a secure 365 Days.
-4. Customize the `X509v3 Subject Alternative Name` to `DNS:copycn`.
-
-![Extensions Configuration (End Entity)](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_17.png?raw=true)
-
-![Advanced Configuration (End Entity)](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_18.png?raw=true)
-
-## Step 20: Advanced Configuration
-
-1. Confirm that your `Advanced` menu corresponds to the demonstrated image.
-
-![Advanced Configuration (End Entity) 1](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_19.png?raw=true)
-
-![Advanced Configuration (End Entity) 2](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_20.png?raw=true)
-
-## Step 21: Confirm and Save (End Entity)
-1. Verify the configured settings.
-2. Press `OK.`
-3. Expect a pop-up message confirming the successful creation of the certificate (e.g., `'End Entity - GA in IT - MQTT Broker'`). Acknowledge it by pressing `OK.`
-
-![Confirm and Save (End Entity)](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_21.png?raw=true)
-
-## Step 22: Verify the New Certificate
-1. An additional certificate should appear in the `Certificates` menu.
-
-![Verify the New Certificate](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_22.png?raw=true)
-
-## Step 23: Export the Certificate
-1. Click the `Export` button in the right menu.
-
-![Export the Certificate](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_23.png?raw=true)
-
-## Step 24: Configure the Export Settings for the Certificate
-1. Configure the export settings, as demonstrated in the image.
-2. Ensure the export format is `PEM chain (*.pem)`.
-3. Indicate the file's destination.
-4. Confirm your selections by clicking `OK`.
-
-## Step 25: Export Private Key
-1. Visit the `Private Keys` menu.
-2. Click the `Export` button in the right menu.
-
-![Export Private Key](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_24.png?raw=true)
-
-## Step 26: Configure the Export Settings for the Private Key
-1. Configure the export settings, as demonstrated in the image.
-2. Ensure the export format is `PEM encrypted (*.pem)`.
-3. Indicate the file's destination.
-4. Confirm your selections by clicking `OK.`
-
-![Export the Certificate](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_25.png?raw=true)
-
-## Step 27: Set a Password for the Private Key
-1. A password prompt will appear.
-2. Enter a secure password.
-3. Confirm your password choice by clicking `OK.`
+I followed the steps in the slides. 
+After installation of XCA for Certificate Management I created the certificate: 
 
 ![Set a Password for the Private Key](https://github.com/JesperHartsuiker/IoT-module/blob/main/Team%20Workspace/Pol_Toni/pictures/activity10/create_certificate/create_certificate_menu_26.png?raw=true)
-
-## Step 28: Completion of the Process
-You now possess the three essential files required for creating a certificate.
-
-Congratulations! You have successfully created the Root CA and an End Entity certificate for MQTT Broker using XCA.
-
-Please note that these instructions are provided as a general guide. The specific steps may vary depending on your requirements and the version of XCA you are using, in our case, 2.5.0 version. For more detailed information and advanced configurations, refer to the official XCA documentation and resources.
-
 
 
 # Use the Certificates to Secure Communication with the mqttbroker
