@@ -12,4 +12,4 @@ Certificate Creation: Today, I managed to create a certificate following the ins
 
 - Incomplete Tasks: Time constraints prevented the completion of all assigned tasks, indicating a potential need for additional guidance or clarification to meet the course requirements successfully.
 
-- Limited Instructions: The instructions for creating the certificate lacked depth, relying heavily on screenshots, thereby hindering comprehension and replication. More comprehensive guidance in this aspect would prove beneficial.
+- Limited Instructions: The instructions for creating the certificate lacked depth, relying heavily on screenshots, thereby hindering comprehension and replication. More comprehensive guidance in this aspect would prove beneficial..
