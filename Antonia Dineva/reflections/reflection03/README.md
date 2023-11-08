@@ -1,6 +1,6 @@
 # Reflection class 03 
 
-### What is your take-away, what do you want to remember, what would be your advice?
+### What did you learn, what do you aim to retain, and what advice can you offer?
 
 - Initiating a swift dive into the course material is crucial, allowing more time for hands-on experimentation and practical application. 
 

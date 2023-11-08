@@ -1,6 +1,6 @@
 # Reflections class 04
 
-### What is your take-away, what do you want to remember, what would be your advice?
+### What did you learn, what do you aim to retain, and what advice can you offer?
 
 A significant lesson was theimportance of perseverance in problem-solving. The challenges encountered served as a reminder not to lose hope when faced with obstacles.
 
