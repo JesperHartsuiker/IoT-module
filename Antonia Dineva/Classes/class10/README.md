@@ -153,3 +153,4 @@ After installation of XCA for Certificate Management I created the certificate:
 
 ## Secure the communication with the mqttbroker
 For a comprehensive and detailed exposition of this section, please refer to the dedicated section located within [linked here](../../../Jesper%20Hartsuiker/Lab/31-10-2023.md#install-cert-on-firefox).
+gi

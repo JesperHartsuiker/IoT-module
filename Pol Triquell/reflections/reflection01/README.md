@@ -1,31 +1,26 @@
-# Reflections
+# Reflection class 01
 
-## First day at lectures
+### What did you learn, what do you aim to retain, and what advice can you offer?
 
-## Lecture and Lab reflection
+Here are the main points I gathered from my first day in the IoT course at the University of Applied Sciences Upper Austria:
 
-### What is your take-away, what do you want to remember, what would be your advice?
+- The importance of IoT in today's computing landscape and its implications were emphasized.
+- Rediscovering Arduino and re-familiarizing myself with its controllers was an enjoyable and enlightening experience.
+- The well-structured class and the instructor's guidance made learning IoT concepts engaging and informative.
+- Engaging with IoT devices and hands-on projects was enjoyable, despite the lengthy lecture.
+- Overcoming challenges, particularly with asynchronous LED blinking, offered valuable learning opportunities.
+- Exploring different LED examples and experimenting with IoT applications brought a sense of novelty to the learning process.
 
-My key takeaways from the first day of the IoT module at the University of Applied Sciences Upper Austria are as follows:
+My suggestion is to welcome the challenges and intricacies that may arise when working with IoT devices and coding. Seek assistance from peers and instructors when necessary, as collaboration and the exchange of experiences can be extremely beneficial. 
 
-* The significance of IoT in today's computer world and its implications were highlighted.
-* Revisiting Arduino and reacquainting myself with its controllers was enjoyable and insightful.
-* The structured class and guidance from the instructor made learning IoT concepts engaging and informative.
-* Working with IoT devices and hands-on projects was fun, despite the lengthy lecture.
-* Overcoming challenges, especially with asynchronous LED blinking, provided valuable learning experiences.
-* Exploring various LED examples and experimenting with IoT applications added a sense of novelty to the learning process.
-* Collaborative interactions with peers and instructors enriched the learning experience, with valuable assistance and feedback.
+### Did you encounter any enjoyable or enlightening struggles or exploration?
 
-My advice is to embrace the challenges and complexities that may arise when working with IoT devices and coding. Seek help from peers and instructors when needed, as collaboration and sharing of experiences can be immensely beneficial. Additionally, maintaining a positive and inquisitive mindset will make the learning journey more enjoyable and rewarding.
+Certainly, there were enjoyable aspects of "struggling" and exploration during the IoT course:
 
-### Was there any good/fun “struggling”/exploration?
+- Experimenting with Arduino and grappling with coding challenges and debugging provided an enjoyable and immersive learning experience.
+- Exploring various LED examples and delving into IoT applications felt like a new beginning and added excitement to the learning process.
+- Collaborating with Pol to tackle tasks and independently establishing a GitHub repository structure for personal portfolios and team projects was a fantastic experience, characterized by teamwork and exploration, which facilitated the effective organization of our content.
 
-Yes, there were enjoyable aspects of "struggling" and exploration during the IoT module:
+### Were there any significant challenges where reaching out to peers or instructors was necessary?
 
-* Experimenting with Arduino and facing challenges in coding and debugging provided a fun and engaging learning experience.
-* Exploring various LED examples and experimenting with IoT applications felt like a fresh start and added excitement to the learning process.
-* Collaborating with Antonia to tackle tasks and create by myself a GitHub repository structure for personal portfolios and team projects was an amazing experience, filled with teamwork and exploration, helped to have a nice organization of our contents.
-
-### Any show stoppers – anything where you should reach out to peers or instructors?
-
-There was one significant "showstopper" moment when configuring a complex IoT project. In this situation, I reached out to both instructors, Jesper and Roan for assistance. Their insights and solutions were invaluable in overcoming the obstacle and progressing with the project. This highlights the importance of seeking help when encountering major challenges, as the support of peers and instructors can be a crucial part of the learning process.
+There was a notable "showstopper" moment when configuring a complex IoT project. During this juncture, I sought assistance from both instructors, Jesper and Roan. Their insights and solutions were invaluable in overcoming the obstacle and making progress with the project. This underscores the importance of seeking help when facing significant challenges, as the support of peers and instructors can be a vital part of the learning process.
