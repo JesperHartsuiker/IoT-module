@@ -1,5 +1,6 @@
 # Portfolio: Jan Eberwein
-
+In this portfolio, you'll find a collection of reports, research, and reflections tied to the hands-on activities and tasks I tackled in the IoT module. Its goal is to offer a glimpse into my learning adventure and highlight the knowledge and skills I've acquired during the course.
+</br>
 Here you can find our Team's <a href="https://docs.google.com/spreadsheets/d/190sODLejnHVpBGEm2-nC2-qgiPEmNxYNmoZCu8LaDyE/edit?usp=sharing"> Hardware List </a>
 
 </br>
