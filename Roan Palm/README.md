@@ -9,7 +9,7 @@ The hardware list of items we got during the module is found here:
 ## First week
 ### First day, 
 Class document 
-<a href="[https://github.com/JesperHartsuiker/IoT-module/blob/main/Jesper%20Hartsuiker/Classes/16-10-2023.md](https://github.com/JesperHartsuiker/IoT-module/blob/6ec32eb647d48539e9c18b9731b91c3bcead2e02/Roan%20Palm/Classes/Day%201.md)"> Class </a>
+<a href="https://github.com/JesperHartsuiker/IoT-module/blob/main/Roan%20Palm/Classes/Day%201.md"> Class </a>
 
 Lab document 16-10-2023:
 <a href="https://github.com/JesperHartsuiker/IoT-module/blob/main/Jesper%20Hartsuiker/Lab/16-10-2023.md">Lab </a>
